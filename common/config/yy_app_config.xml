@@ -1,8 +1,45 @@
 <?xml version="1.0"?>
 <Response>
+	
+        <version>
+          <tableid>14</tableid>
+          <vname>1.0.6</vname>
+          <vtitle>iOS赢娱掌柜1.0.6发布(搭配赢娱A-V1.0.20190912及以上版本使用)</vtitle>
+          <vdesc>   
+		  1）现场管理-即时房态，包厢预订功能优化，仅支持1.0.6版本及以上
+		     &lt;br/&gt;a、后台-人员设置-业务权限，增加权限“掌柜预订人员、销售经理修改”，默认为不勾选
+		     &lt;br/&gt;b、增加“第二订位人”和“销售经理”字段
+		     &lt;br/&gt;c、包厢预订时，“订位人”/“第二订位人”/“销售经理”受掌柜预订人员、销售经理修改权限控制，若无权限，则无法对订位人/第二订位人/销售经理进行修改
+		    &lt;br/&gt;2）现场管理-“出品查询”汇总优化
+		     &lt;br/&gt;a、增加按“商品类别”和“商品明细”的方式报表统计
+		     &lt;br/&gt;b、统计内容优化：“商品名称”或“商品类别”/“销售”/“赠送”/“退单”/“其他”/“合计”
+	  </vdesc> <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp/distribution/app/ios/yy_juhe/1.0.6/yy_juhe.plist</vurl>
+          <vtime>2019-09-12 14:11:02</vtime>
+          <vtype>1</vtype>
+        </version>
+	
 
         <version>
-          <tableid>11</tableid>
+          <tableid>13</tableid>
+          <vname>1.0.6</vname>
+          <vtitle>Android赢娱掌柜1.0.6发布(搭配赢娱A-V1.0.20190912及以上版本使用)</vtitle>
+          <vdesc>
+		  1）现场管理-即时房态，包厢预订功能优化，仅支持1.0.6版本及以上
+		     &lt;br/&gt;a、后台-人员设置-业务权限，增加权限“掌柜预订人员、销售经理修改”，默认为不勾选
+		     &lt;br/&gt;b、增加“第二订位人”和“销售经理”字段
+		     &lt;br/&gt;c、包厢预订时，“订位人”/“第二订位人”/“销售经理”受掌柜预订人员、销售经理修改权限控制，若无权限，则无法对订位人/第二订位人/销售经理进行修改
+		    &lt;br/&gt;2）现场管理-“出品查询”汇总优化
+		     &lt;br/&gt;a、增加按“商品类别”和“商品明细”的方式报表统计
+		     &lt;br/&gt;b、统计内容优化：“商品名称”或“商品类别”/“销售”/“赠送”/“退单”/“其他”/“合计”
+          </vdesc>
+          <vurl>https://wenxuanling.github.io/sndownapp/distribution/app/android/yy_juhe/1.0.6/yyzhanggui.apk</vurl>
+          <vtime>2019-09-12 14:11:02</vtime>
+          <vtype>2</vtype>
+        </version>
+	
+	
+        <version>
+          <tableid>12</tableid>
           <vname>1.0.5</vname>
           <vtitle>iOS赢娱掌柜1.0.5发布(搭配赢娱A-V1.0.20190827及以上版本使用)</vtitle>
           <vdesc>   
