@@ -1,0 +1,206 @@
+<?xml version="1.0"?>
+<Response>
+
+        <version>
+          <tableid>11</tableid>
+          <vname>1.0.5</vname>
+          <vtitle>iOS赢娱掌柜1.0.5发布(搭配赢娱A-V1.0.20190827及以上版本使用)</vtitle>
+          <vdesc>   
+		  1）工作-现场管理，新增“退单查询”报表
+		    &lt;br/&gt;  a、后台-人员设置-菜单权限，赢娱移动掌柜新增对应菜单权限控制
+	  </vdesc> <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/yy_juhe/1.0.5/yy_juhe.plist</vurl>
+          <vtime>2019-08-27 15:11:02</vtime>
+          <vtype>1</vtype>
+        </version>
+	
+        <version>
+          <tableid>11</tableid>
+          <vname>1.0.5</vname>
+          <vtitle>Android赢娱掌柜1.0.5发布(搭配赢娱A-V1.0.20190827及以上版本使用)</vtitle>
+          <vdesc>
+		  1）工作-现场管理，新增“退单查询”报表
+		    &lt;br/&gt;  a、后台-人员设置-菜单权限，赢娱移动掌柜新增对应菜单权限控制
+          </vdesc>
+          <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/yy_juhe/1.0.5/yyzhanggui.apk</vurl>
+          <vtime>2019-08-27 15:11:02</vtime>
+          <vtype>2</vtype>
+        </version>
+	
+        <version>
+          <tableid>10</tableid>
+          <vname>1.0.4</vname>
+          <vtitle>iOS赢娱掌柜1.0.4发布(搭配赢娱A-V1.0.20190731及以上版本使用)</vtitle>
+          <vdesc>   
+	   1）现场管理-即时房态，包厢底部的数据分析以及汇总功能修改
+   &lt;br/&gt;  a、如果登录人员无查看所有包厢权限，根据部门权限，登录人可以查看自己及该部门下所有人员的预订包厢数据；如果组员是“资源组长”，也可查看到该组员下资源的预订包厢数据
+   &lt;br/&gt;   b、如果登录人员有查看所有包厢权限，则可查看所有包厢数据
+ &lt;br/&gt;   2）现场管理-“存取报表”汇总优化
+   &lt;br/&gt;   a、增加按“明细”的方式报表统计，并增加“客人姓名”、“客人电话”
+   &lt;br/&gt;   b、按经办人、包厢、物品、明细的方式统计的报表，去掉“商品类别”、“单位” 
+	  </vdesc> <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/yy_juhe/1.0.4/yy_juhe.plist</vurl>
+          <vtime>2019-07-31 16:11:02</vtime>
+          <vtype>1</vtype>
+        </version>
+	
+	
+        <version>
+          <tableid>9</tableid>
+          <vname>1.0.4</vname>
+          <vtitle>Android赢娱掌柜1.0.4发布(搭配赢娱A-V1.0.20190731及以上版本使用)</vtitle>
+          <vdesc>
+		 1）现场管理-即时房态，包厢底部的数据分析以及汇总功能修改
+    &lt;br/&gt;  a、如果登录人员无查看所有包厢权限，根据部门权限，登录人可以查看自己及该部门下所有人员的预订包厢数据；如果组员是“资源组长”，也可查看到该组员下资源的预订包厢数据
+    &lt;br/&gt;   b、如果登录人员有查看所有包厢权限，则可查看所有包厢数据
+  &lt;br/&gt;   2）现场管理-“存取报表”汇总优化
+    &lt;br/&gt;   a、增加按“明细”的方式报表统计，并增加“客人姓名”、“客人电话”
+    &lt;br/&gt;   b、按经办人、包厢、物品、明细的方式统计的报表，去掉“商品类别”、“单位” 
+    &lt;br/&gt;   3）现场管理-即时房态，点单和赠送界面，新增支持商品检索功能
+      &lt;br/&gt;   4）新增支持“资源预约”功能，同IOS的资源预约功能    
+          </vdesc>
+          <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/yy_juhe/1.0.4/yyzhanggui.apk</vurl>
+          <vtime>2019-07-31 16:11:02</vtime>
+          <vtype>2</vtype>
+        </version>
+	
+	
+        <version>
+          <tableid>8</tableid>
+          <vname>1.0.3</vname>
+          <vtitle>iOS赢娱掌柜1.0.3发布(搭配赢娱A-V1.0.20190719及以上版本使用)</vtitle>
+          <vdesc>   
+	   &lt;br/&gt; 1）即时房态，支取功能优化
+	   &lt;br/&gt; a、增加“客户姓名”、“客户电话”和“经办人”查询条件，受寄存支取特批权限控制；若无权限，这三个查询条件为必填项
+	   &lt;br/&gt; b、原支取功能的经办人编辑受寄存支取特批权限控制，现改成编辑不受任何权限控制
+	   &lt;br/&gt; c、打开支取界面，经办人默认填入包厢的订位人
+	   &lt;br/&gt; 2）工作-现场查询，存取查询新增按“明细”查询
+	   &lt;br/&gt; a、只能查看自己以及部门权限设置所勾选部门下人员的存取明细
+	   &lt;br/&gt; 3）即时房态界面，如果无对应菜单权限，按钮不显示
+	  </vdesc> <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/yy_juhe/1.0.3/yy_juhe.plist</vurl>
+          <vtime>2019-07-19 17:11:02</vtime>
+          <vtype>1</vtype>
+        </version>
+	
+
+        <version>
+          <tableid>7</tableid>
+          <vname>1.0.3</vname>
+          <vtitle>Android赢娱掌柜1.0.3发布(搭配赢娱A-V1.0.20190719及以上版本使用)</vtitle>
+          <vdesc>
+		   &lt;br/&gt; 1）即时房态，支取功能优化
+		   &lt;br/&gt; a、增加“客户姓名”、“客户电话”和“经办人”查询条件，受寄存支取特批权限控制；若无权限，这三个查询条件为必填项
+		   &lt;br/&gt; b、原支取功能的经办人编辑受寄存支取特批权限控制，现改成编辑不受任何权限控制
+		   &lt;br/&gt; c、打开支取界面，经办人默认填入包厢的订位人
+		   &lt;br/&gt; 2）工作-现场查询，存取查询新增按“明细”查询
+		   &lt;br/&gt; a、只能查看自己以及部门权限设置所勾选部门下人员的存取明细
+		   &lt;br/&gt; 3）即时房态界面，如果无对应菜单权限，按钮不显示
+		   &lt;br/&gt;4）即时房态-点单，新增“现结”功能，同IOS的“现结”功能
+		   &lt;br/&gt;5）我-个人信息，新增“今日网络支付明细”，同IOS的“今日网络支付明细”，只显示当前营业日的网络支付明细
+		        
+          </vdesc>
+          <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/yy_juhe/1.0.3/yyzhanggui.apk</vurl>
+          <vtime>2019-07-19 17:11:02</vtime>
+          <vtype>2</vtype>
+        </version>
+	
+	
+        <version>
+          <tableid>6</tableid>
+          <vname>1.0.2</vname>
+          <vtitle>iOS赢娱掌柜1.0.2发布(搭配赢娱A-V1.0.20190710及以上版本使用)</vtitle>
+          <vdesc>   
+	    &lt;br/&gt; 1）工作->即时房态，新增包厢的背景、文字以及房态筛选按钮的文字颜色可实现 “默认”与“亮色”主题的切换；
+	      &lt;br/&gt; 2）工作->即时房态，包厢操作新增呼叫菜单
+	        &lt;br/&gt; a、后台系统-菜单权限，赢娱移动掌柜-现场查询-即时房态，新增“呼叫”权限
+	  </vdesc> <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/yy_juhe/1.0.2/yy_juhe.plist</vurl>
+          <vtime>2019-07-10 19:11:02</vtime>
+          <vtype>1</vtype>
+        </version>
+	
+        <version>
+          <tableid>5</tableid>
+          <vname>1.0.2</vname>
+          <vtitle>Android赢娱掌柜1.0.2发布(搭配赢娱A-V1.0.20190710及以上版本使用)</vtitle>
+          <vdesc>
+		  &lt;br/&gt; 1）工作->即时房态，新增支持开房/预订/带客/关注功能
+		    &lt;br/&gt; 2）工作->即时房态，新增支持包厢查询/点单/赠送/打折/寄存/支取/退单功能
+		      &lt;br/&gt; a、点单只支持落单后结，现结暂未实现 
+		    &lt;br/&gt; 3）我->支持查看‘今日点单列表’
+		    &lt;br/&gt; 4）工作->即时房态，新增包厢的背景、文字以及房态筛选按钮的文字颜色可实现 “默认”与“亮色”主题的切换；
+		      &lt;br/&gt; 5）工作->即时房态，包厢操作新增呼叫菜单
+		        &lt;br/&gt; a、后台系统-菜单权限，赢娱移动掌柜-现场查询-即时房态，新增“呼叫”权限
+          </vdesc>
+          <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/yy_juhe/1.0.2/yyzhanggui.apk</vurl>
+          <vtime>2019-07-10 19:11:02</vtime>
+          <vtype>2</vtype>
+        </version>
+	
+	
+        <version>
+          <tableid>4</tableid>
+          <vname>1.0.0</vname>
+          <vtitle>Android赢娱掌柜1.0.0-20190620发布(搭配赢娱V1.0.20190620.exe及以上版本使用)</vtitle>
+          <vdesc>
+		  1、我-支持查看登录人员的赠送信息
+		  &lt;br/&gt;2、我-增加“组内预订业绩”/“个人预订业绩”
+		  &lt;br/&gt; 1）登录人员为人员，显示“组内预订业绩”
+		  &lt;br/&gt; 2）登录人员为资源，显示“个人预订业绩”
+		  &lt;br/&gt; 3）登录人员为人员时，“组内预订业绩”显示人员以及人员作为组长所在资源组下所有资源预订业绩
+		  &lt;br/&gt; 3、工作-存取查询，支持按包厢查询存取信息
+		  &lt;br/&gt;4、即时房态，支持查看历史账单
+		  &lt;br/&gt; 1）后台系统-菜单权限，赢娱移动掌柜-现场查询-即时房态，新增“历史账单”权限
+		  &lt;br/&gt; 2）所有房态下，都可以查看所选包厢当前营业日的历史账单
+          </vdesc>
+          <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/yy_juhe/1.0.1/yyzhanggui.apk</vurl>
+          <vtime>2019-06-20 15:11:02</vtime>
+          <vtype>2</vtype>
+        </version>
+	
+	
+	
+        <version>
+          <tableid>3</tableid>
+          <vname>1.0.0</vname>
+          <vtitle>iOS赢娱掌柜1.0.1发布(搭配赢娱V1.0.20190620.exe及以上版本使用)</vtitle>
+          <vdesc>   
+		  1、我-支持查看登录人员的赠送信息
+		  &lt;br/&gt;2、我-增加“组内预订业绩”/“个人预订业绩”
+		  &lt;br/&gt; 1）登录人员为人员，显示“组内预订业绩”
+		  &lt;br/&gt; 2）登录人员为资源，显示“个人预订业绩”
+		  &lt;br/&gt; 3）登录人员为人员时，“组内预订业绩”显示人员以及人员作为组长所在资源组下所有资源预订业绩
+		  &lt;br/&gt; 3、工作-存取查询，支持按包厢查询存取信息
+		  &lt;br/&gt;4、即时房态，支持查看历史账单
+		  &lt;br/&gt; 1）后台系统-菜单权限，赢娱移动掌柜-现场查询-即时房态，新增“历史账单”权限
+		  &lt;br/&gt; 2）所有房态下，都可以查看所选包厢当前营业日的历史账单
+	  </vdesc> <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/yy_juhe/1.0.1/yy_juhe.plist</vurl>
+          <vtime>2019-06-20 15:11:02</vtime>
+          <vtype>1</vtype>
+        </version>
+	
+	
+        <version>
+          <tableid>2</tableid>
+          <vname>1.0.0</vname>
+          <vtitle>Android赢娱掌柜1.0.0发布(搭配赢娱V1.0.20190319.exe及以上版本使用)</vtitle>
+          <vdesc>
+		  Android赢娱掌柜
+          </vdesc>
+          <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/yy_juhe/1.0.0/yyzhanggui.apk</vurl>
+          <vtime>2019-05-29 15:11:02</vtime>
+          <vtype>2</vtype>
+        </version>
+	
+	
+	
+        <version>
+          <tableid>1</tableid>
+          <vname>1.0.0</vname>
+          <vtitle>iOS赢娱掌柜1.0.0发布(搭配赢娱V1.0.20190319.exe及以上版本使用)</vtitle>
+          <vdesc>   
+		 iOS赢娱掌柜发布
+	  </vdesc> <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/yy_juhe/1.0.0/yy_juhe.plist</vurl>
+          <vtime>2019-03-19 15:11:02</vtime>
+          <vtype>1</vtype>
+        </version>
+	
+  
+</Response>

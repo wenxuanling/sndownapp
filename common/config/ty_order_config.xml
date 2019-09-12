@@ -1,0 +1,267 @@
+<?xml version="1.0"?>
+<Response>
+	
+        <version>
+          <tableid>24</tableid>
+          <vname>2.1.2</vname>
+          <vtitle>iOS通娱点单2.1.2发布(搭配通娱A-V3.0.20190830及以上版本使用)</vtitle>
+          <vdesc>   
+	     1）包厢信息增加显示会员图标
+	        &lt;br/&gt;2）选择使用状态的包厢时，增加“会员卡”操作，支持会员卡登记
+	           &lt;br/&gt;a、“会员卡”按钮受菜单权限控制，有权限的人员可以进行会员卡登记，无权限时提示“您没有会员卡权限”
+	           &lt;br/&gt;b、如果包厢已登记会员卡，则进入会员信息界面
+	           &lt;br/&gt;c、如果包厢未登记会员，则进入会员登记界面，支持扫码登记和手机号登录，会员登记成功后跳转至会员信息界面
+	           &lt;br/&gt;d、当后台―短信SMS管理―信息服务设置―自动服务―“会员登录/支付手机短信验证码”启用时，才可使用手机号+验证码登录   
+	        &lt;br/&gt;3）包厢登记了会员卡且参数“商品点单自动继承包厢最后一次会员卡信息”为“是”时，购物车页面增加显示“折扣”，且“小计”修改为折后金额
+	        &lt;br/&gt;4）点单现结使用会员卡支付时，会员卡也支持手机号+验证码登录
+	        &lt;br/&gt;5）点单现结使用会员卡支付时，商品的价格和折扣以实际支付的会员卡为准
+	        &lt;br/&gt;6）包厢查询，商品信息中小计金额改为折后金额
+		&lt;br/&gt;7）“带客”包厢的颜色改为粉色
+	  </vdesc> <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/ty_order/2.1.2/ty_order.plist</vurl>
+          <vtime>2019-09-02 13:51:02</vtime>
+          <vtype>1</vtype>
+        </version>
+	
+        <version>
+          <tableid>23</tableid>
+          <vname>2.0.7</vname>
+          <vtitle>Android通娱点单2.0.7发布(搭配通娱A-V3.0.20190830及以上版本使用)</vtitle>
+          <vdesc>
+		     1）包厢信息增加显示会员图标
+		        &lt;br/&gt;2）选择使用状态的包厢时，增加“会员卡”操作，支持会员卡登记
+		           &lt;br/&gt;a、“会员卡”按钮受菜单权限控制，有权限的人员可以进行会员卡登记，无权限时提示“您没有会员卡权限”
+		           &lt;br/&gt;b、如果包厢已登记会员卡，则进入会员信息界面
+		           &lt;br/&gt;c、如果包厢未登记会员，则进入会员登记界面，支持扫码登记和手机号登录，会员登记成功后跳转至会员信息界面
+		           &lt;br/&gt;d、当后台―短信SMS管理―信息服务设置―自动服务―“会员登录/支付手机短信验证码”启用时，才可使用手机号+验证码登录   
+		        &lt;br/&gt;3）包厢登记了会员卡且参数“商品点单自动继承包厢最后一次会员卡信息”为“是”时，购物车页面增加显示“折扣”，且“小计”修改为折后金额
+		        &lt;br/&gt;4）点单现结使用会员卡支付时，会员卡也支持手机号+验证码登录
+		        &lt;br/&gt;5）点单现结使用会员卡支付时，商品的价格和折扣以实际支付的会员卡为准
+		        &lt;br/&gt;6）包厢查询，商品信息中小计金额改为折后金额
+			&lt;br/&gt;7）“带客”包厢的颜色改为粉色
+          </vdesc>
+          <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/ty_order/2.0.7/newKTVOrder.apk</vurl>
+          <vtime>2019-09-02 13:51:02</vtime>
+          <vtype>2</vtype>
+        </version>
+	
+        <version>
+          <tableid>22</tableid>
+          <vname>2.1.1</vname>
+          <vtitle>iOS通娱点单2.1.1发布(搭配通娱2016-V3.0.20190517及以上版本使用)</vtitle>
+          <vdesc>   
+		  支持将商品图片投屏至N30娱乐屏
+		  &lt;br/&gt;1）后台―商品资料设置，增加“投屏图片设置”按钮，图片规格为1280*720
+	          &lt;br/&gt;2）后台―运营参数―营业参数设置―移动管理，新增参数“启用商品图片投屏”，默认为“否”
+	          &lt;br/&gt;3）参数为“是”时，点单/赠送，点单商品选择数量时，增加“投射图片”/“关闭投射”按钮	    
+		  &lt;br/&gt;4） 修复点单时无法按中文搜索商品的问题
+	  </vdesc> <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/ty_order/2.1.1/ty_order.plist</vurl>
+          <vtime>2019-05-23 15:11:02</vtime>
+          <vtype>1</vtype>
+        </version>
+	
+	
+        <version>
+          <tableid>21</tableid>
+          <vname>2.0.6</vname>
+          <vtitle>Android通娱点单2.0.6发布(搭配通娱2016-V3.0.20190517及以上版本使用)</vtitle>
+          <vdesc>
+		  支持将商品图片投屏至N30娱乐屏
+		  &lt;br/&gt;1）后台―商品资料设置，增加“投屏图片设置”按钮，图片规格为1280*720
+	          &lt;br/&gt;2）后台―运营参数―营业参数设置―移动管理，新增参数“启用商品图片投屏”，默认为“否”
+	          &lt;br/&gt;3）参数为“是”时，点单/赠送，点单商品选择数量时，增加“投射图片”/“关闭投射”按钮	        		&lt;br/&gt;4）修复参数“商品点单自动继承包厢最后一次会员卡信息”为“否”时，提示“当前商品价格类型已修改，请刷新房态”，无法点单/赠送的问题
+		  
+          </vdesc>
+          <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/ty_order/2.0.6/newKTVOrder.apk</vurl>
+          <vtime>2019-05-23 15:11:02</vtime>
+          <vtype>2</vtype>
+        </version>
+	
+	
+        <version>
+          <tableid>20</tableid>
+          <vname>2.0.5</vname>
+          <vtitle>Android通娱点单2.0.5发布(搭配通娱2016-V3.0.20180904及以上版本使用)</vtitle>
+          <vdesc>
+		  1）现结功能，新增支持“会员支付”
+		        &lt;br/&gt;a、目前仅支持扫描电子会员卡的二维码/条码
+		        &lt;br/&gt;b、付款金额根据会员卡对应会员等级设置的商品价格类型和折率计算所得
+		  
+          </vdesc>
+          <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/ty_order/2.0.5/newKTVOrder.apk</vurl>
+          <vtime>2018-09-04 15:11:02</vtime>
+          <vtype>2</vtype>
+        </version>
+	
+	
+        <version>
+          <tableid>19</tableid>
+          <vname>2.1.0</vname>
+          <vtitle>iOS通娱点单2.1.0发布(搭配通娱2016-V3.0.20180904及以上版本使用)</vtitle>
+          <vdesc>   1）现结功能，新增支持“会员支付”
+      &lt;br/&gt;a、目前仅支持扫描电子会员卡的二维码/条码
+      &lt;br/&gt;b、付款金额根据会员卡对应会员等级设置的商品价格类型和折率计算所得
+	  </vdesc> <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/ty_order/2.1.0/ty_order.plist</vurl>
+          <vtime>2018-09-04 15:11:02</vtime>
+          <vtype>1</vtype>
+        </version>
+	
+        <version>
+          <tableid>18</tableid>
+          <vname>2.0.8</vname>
+          <vtitle>iOS通娱点单2.0.8发布(搭配通娱2016-V3.0.20180508及以上版本使用)</vtitle>
+          <vdesc>  &lt;br/&gt;1）支持对有兑换过子商品的可选套餐进行退单
+	       &lt;br/&gt;2）包厢查询-基本信息，增加字段显示
+          &lt;br/&gt;a、原"其他信息"，增加"钟点费"、"包厢费"、"未结商品金额"、"已结商品金额"和"备注"项，当某项值为空时，不显示该项
+	          &lt;br/&gt;b、新增"包厢活动信息"显示，包括"活动方案名称"、"消费时段"、"消费时长"和"小计"，当某项值为空时，不显示该项
+		
+	  </vdesc> <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/ty_order/2.0.8/ty_order.plist</vurl>
+          <vtime>2018-05-09 09:11:02</vtime>
+          <vtype>1</vtype>
+        </version>
+	
+	
+   <version>
+     <tableid>17</tableid>
+     <vname>2.0.4</vname>
+     <vtitle>Android通娱点单2.0.4发布(搭配通娱2016-V3.0.20180508及以上版本使用)</vtitle>
+     <vdesc>
+	     &lt;br/&gt;1）支持对有兑换过子商品的可选套餐进行退单
+	       &lt;br/&gt;2）包厢查询-基本信息，增加字段显示
+          &lt;br/&gt;a、原"其他信息"，增加"钟点费"、"包厢费"、"未结商品金额"、"已结商品金额"和"备注"项，当某项值为空时，不显示该项
+	          &lt;br/&gt;b、新增"包厢活动信息"显示，包括"活动方案名称"、"消费时段"、"消费时长"和"小计"，当某项值为空时，不显示该项
+		  
+     </vdesc>
+     <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/ty_order/2.0.4/newKTVOrder.apk</vurl>
+     <vtime>2018-05-09 09:11:02</vtime>
+     <vtype>2</vtype>
+   </version>
+   
+
+	   <version>
+	     <tableid>16</tableid>
+	     <vname>2.0.3</vname>
+	     <vtitle>Android通娱点单2.0.3发布(搭配通娱2016-V3.0.20180420及以上版本使用)</vtitle>
+	     <vdesc>1）包厢查询-商品信息合计栏，增加显示未结金额合计；下方明细商品记录，增加已结和未结标记</vdesc>
+	     <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/ty_order/2.0.3/newKTVOrder.apk</vurl>
+	     <vtime>2018-04-20 14:29:02</vtime>
+	     <vtype>2</vtype>
+	   </version>
+	   
+	   
+        <version>
+          <tableid>15</tableid>
+          <vname>2.0.7</vname>
+          <vtitle>iOS通娱点单2.0.7发布(搭配通娱2016-V3.0.20180420及以上版本使用)</vtitle>
+          <vdesc>  1）包厢查询-商品信息合计栏，增加显示未结金额合计；下方明细商品记录，增加已结和未结标记
+	   &lt;br/&gt;2）修复 IOS点单使用网络支付无法倒计时收单问题
+	  </vdesc> <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/ty_order/2.0.7/ty_order.plist</vurl>
+          <vtime>2018-04-20 14:29:02</vtime>
+          <vtype>1</vtype>
+        </version>
+	
+	
+	
+        <version>
+          <tableid>14</tableid>
+          <vname>2.0.6</vname>
+          <vtitle>iOS通娱点单2.0.6发布(搭配通娱2016-V3.0.20171106及以上版本使用)</vtitle>
+          <vdesc> 1）IOS移动点单APP支持适配IPAD
+	  </vdesc> <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/ty_order/2.0.6/ty_order.plist</vurl>
+          <vtime>2018-03-26 14:29:02</vtime>
+          <vtype>1</vtype>
+        </version>
+	
+	
+	
+        <version>
+          <tableid>14</tableid>
+          <vname>2.0.5</vname>
+          <vtitle>iOS通娱点单2.0.5发布(搭配通娱2016-V3.0.20180228及以上版本使用)</vtitle>
+          <vdesc> 1）设置界面增加包厢绑定功能
+      &lt;br/&gt;a、后台-菜单权限-移动KTV点单，增加“包厢绑定”权限
+      &lt;br/&gt;b、点单app-我-设置-包厢绑定，可以选择绑定包厢
+      &lt;br/&gt;c、设备绑定包厢后，房间界面只能查看所绑定包厢的相关信息
+	  </vdesc>
+          <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/ty_order/2.0.5/ty_order.plist</vurl>
+          <vtime>2018-03-01 09:29:02</vtime>
+          <vtype>1</vtype>
+        </version>
+	
+
+        <version>
+          <tableid>14</tableid>
+          <vname>2.0.4</vname>
+          <vtitle>iOS通娱点单2.0.4发布(搭配通娱3.0使用)</vtitle>
+          <vdesc>1.修复证书过期导致的安装失败
+	  </vdesc>
+          <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/ty_order/2.0.4/ty_order.plist</vurl>
+          <vtime>2017-10-24 14:29:02</vtime>
+          <vtype>1</vtype>
+        </version>
+		
+		
+        <!-- <version>
+          <tableid>13</tableid>
+          <vname>2.0.3</vname>
+          <vtitle>iOS通娱点单2.0.3发布(搭配通娱3.0使用)</vtitle>
+          <vdesc>1.增加呼叫服务后震动或响铃提示，当在后台运行时候给予通知提醒
+	  </vdesc>
+          <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/ty_order/2.0.3/ty_order.plist</vurl>
+          <vtime>2017-10-24 14:29:02</vtime>
+          <vtype>1</vtype>
+        </version> -->
+		
+	
+  <version>
+    <tableid>12</tableid>
+    <vname>2.0.1</vname>
+    <vtitle>Android通娱点单2.0.1发布(搭配通娱2.9使用)</vtitle>
+    <vdesc>1.修复注册参数错误bug</vdesc>
+    <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/ty_order/2.0.1/newKTVOrder.apk</vurl>
+    <vtime>2017-05-08 14:29:02</vtime>
+    <vtype>2</vtype>
+  </version>
+  
+  <!-- <version>
+    <tableid>11</tableid>
+    <vname>2.0.1</vname>
+    <vtitle>iOS通娱点单2.0.1发布(搭配通娱2.9使用)</vtitle>
+    <vdesc>1.修复注册参数错误bug</vdesc>
+    <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/ty_order/2.0.1/ty_order.plist</vurl>
+    <vtime>2017-05-08 14:29:02</vtime>
+    <vtype>1</vtype>
+  </version> -->
+  
+  
+  
+  <version>
+    <tableid>10</tableid>
+    <vname>2.0.0</vname>
+    <vtitle>Android通娱点单2.0.0发布(搭配通娱2.8使用)</vtitle>
+    <vdesc>1.支持微信，支付宝支付
+&lt;br/&gt;2.全新的UI风格
+&lt;br/&gt;3.服务器地址支持输入域名
+&lt;br/&gt;4.优化细节功能和交互</vdesc>
+    <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/ty_order/2.0.0/newKTVOrder.apk</vurl>
+    <vtime>2017-03-20 14:29:02</vtime>
+    <vtype>2</vtype>
+  </version>
+  
+  
+  
+  <!-- <version>
+    <tableid>1</tableid>
+    <vname>2.0.0</vname>
+    <vtitle>iOS通娱点单2.0.0发布(搭配通娱2.8使用)</vtitle>
+    <vdesc>1.支持微信，支付宝支付
+&lt;br/&gt;2.全新的UI风格
+&lt;br/&gt;3.服务器地址支持输入域名
+&lt;br/&gt;4.优化细节功能和交互</vdesc>
+    <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/ty_order/2.0.0/ty_order.plist</vurl>
+    <vtime>2017-03-20 14:29:02</vtime>
+    <vtype>1</vtype>
+  </version>
+   -->
+  
+  
+</Response>

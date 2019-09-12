@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<Response>
+        <version>
+          <tableid>8</tableid>
+          <vname>1.0.7</vname>
+          <vtitle>iOS通娱电子菜谱1.0.7发布(搭配通娱A-V3.0.20190830及以上版本使用)</vtitle>
+          <vdesc>
+		  1）“带客”包厢的颜色改为粉色
+          </vdesc>
+          <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/ty_caipu/1.0.7/ty_caipu.plist</vurl>
+          <vtime>2019-09-02 13:51:03</vtime>
+          <vtype>1</vtype>
+        </version>
+	
+        <version>
+          <tableid>7</tableid>
+          <vname>1.0.6</vname>
+          <vtitle>iOS通娱电子菜谱1.0.6发布(搭配通娱2016-V3.0.20190517及以上版本使用)</vtitle>
+          <vdesc>
+		  支持将商品图片投屏至N30娱乐屏
+		  &lt;br/&gt;1）后台―商品资料设置，增加“投屏图片设置”按钮，图片规格为1280*720
+	          &lt;br/&gt;2）后台―运营参数―营业参数设置―移动管理，新增参数“启用商品图片投屏”，默认为“否”
+	          &lt;br/&gt;3）参数为“是”时，点单/赠送，点单商品选择数量时，增加“投射图片”/“关闭投射”按钮	
+          </vdesc>
+          <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/ty_caipu/1.0.6/ty_caipu.plist</vurl>
+          <vtime>2019-05-23 15:21:13</vtime>
+          <vtype>1</vtype>
+        </version>
+	
+        <version>
+          <tableid>6</tableid>
+          <vname>1.0.5</vname>
+          <vtitle>iOS通娱电子菜谱1.0.5发布(搭配通娱2016-V3.0.20180904及以上版本使用)</vtitle>
+          <vdesc>
+		  1）设置-操作，增加“包厢绑定”功能，支持多选
+		  &lt;br/&gt;2）“包厢绑定”存在勾选包厢，那么“请选择包厢”只对已勾选包厢可见；反之若未勾选任何包厢，则对全部包厢可见
+          </vdesc>
+          <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/ty_caipu/1.0.5/ty_caipu.plist</vurl>
+          <vtime>2018-12-14 15:21:13</vtime>
+          <vtype>1</vtype>
+        </version>
+	
+	
+	
+        <version>
+          <tableid>5</tableid>
+          <vname>1.0.4</vname>
+          <vtitle>iOS通娱电子菜谱1.0.4发布(搭配通娱2016-V3.0.20180904及以上版本使用)</vtitle>
+          <vdesc>
+		  1）新增现结功能，支持“网络支付”和“会员支付”功能
+          </vdesc>
+          <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/ty_caipu/1.0.4/ty_caipu.plist</vurl>
+          <vtime>2018-09-04 15:11:01</vtime>
+          <vtype>1</vtype>
+        </version>
+	
+	
+        <version>
+          <tableid>4</tableid>
+          <vname>1.0.3</vname>
+          <vtitle>iOS通娱电子菜谱1.0.3发布(搭配通娱2016-V3.0.20180508及以上版本使用)</vtitle>
+          <vdesc>
+		  1）增加演示账号的资源和酒水图片显示功能
+          </vdesc>
+          <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/ty_caipu/1.0.3/ty_caipu.plist</vurl>
+          <vtime>2018-06-07 09:11:01</vtime>
+          <vtype>1</vtype>
+        </version>
+	
+	
+        <version>
+          <tableid>3</tableid>
+          <vname>1.0.2</vname>
+          <vtitle>iOS通娱电子菜谱1.0.2发布(搭配通娱2016-V3.0.20180508及以上版本使用)</vtitle>
+          <vdesc>
+		  1）后台系统-营业参数设置-移动管理，新增"电子菜谱是否启用资源功能"参数
+		        &lt;br/&gt;a、参数值：启用不验证、启用人员验证、不启用
+		        &lt;br/&gt;b、当参数值为不启用时，菜谱首页不显示资源按钮
+		     &lt;br/&gt;2）后台系统-菜单权限-移动电子菜谱，新增"资源服务"菜单权限
+&lt;br/&gt;       a、该权限用于当参数"电子菜谱是否启用资源功能"的值为"启用人员验证"时，验证人员是否有进入资源界面的权限
+		     &lt;br/&gt;3）资源视图支持多图选人和滚动选人两种模式切换
+		     &lt;br/&gt;4）支持单选/多选资源进行呼叫
+		     &lt;br/&gt;5）支持"随缘"功能，每次点击随缘，都会随机勾选10个资源，用户可直接进行呼叫
+		    &lt;br/&gt; 6）选中的资源会自动添加到心动区，用户可直接点击心动区图片进行资源定位
+		     &lt;br/&gt;7）点击资源图片，可查看资源档案
+		     &lt;br/&gt;8）只有使用和买钟的包厢才能进行资源呼叫
+          </vdesc>
+          <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/ty_caipu/1.0.2/ty_caipu.plist</vurl>
+          <vtime>2018-05-09 09:11:01</vtime>
+          <vtype>1</vtype>
+        </version>
+	
+        <version>
+          <tableid>2</tableid>
+          <vname>1.0.1</vname>
+          <vtitle>iOS通娱电子菜谱1.0.1发布(搭配通娱2.9使用)</vtitle>
+          <vdesc>
+		  1.修复价格显示不全问题
+          </vdesc>
+          <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/ty_caipu/1.0.1/ty_caipu.plist</vurl>
+          <vtime>2018-01-21 18:11:01</vtime>
+          <vtype>1</vtype>
+        </version>
+	
+	
+	
+  <version>
+    <tableid>1</tableid>
+    <vname>1.0.0</vname>
+    <vtitle>iOS通娱电子菜谱1.0.0发布(搭配通娱2.9使用)</vtitle>
+    <vdesc>通娱电子菜谱系统是针对量贩KTV、酒吧、会所等经营场所设计的智能移动客户端软件，场所各级人员通过iPad，即可便捷实现点单、例送、会员登记等功能，经营管理者亦能高屋建瓴，便捷高效地进行各种管理活动，助力场所实现直观、高效的管理，简化业务管理流程，大幅提升运营管理效率。
+&lt;br/&gt;
+&lt;br/&gt;【基本功能】
+&lt;br/&gt;1、支持移动点单
+&lt;br/&gt;2、支持包厢区域与搜索过滤
+&lt;br/&gt;3、支持普客登记
+&lt;br/&gt;4、支持会员信息登记
+&lt;br/&gt;5、支持商品图片点单
+&lt;br/&gt;【亮点功能】
+&lt;br/&gt;1、支持例送
+&lt;br/&gt;2、支持特殊口味选择
+&lt;br/&gt;3、会员信息登记支持拍照
+&lt;br/&gt;【注意事项】
+&lt;br/&gt;1、该客户端软件必须配合视易通娱KTV娱乐管理系统使用
+&lt;br/&gt;2、需要iOS 6.0或更高版本的iPad设备上使用</vdesc>
+    <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/ty_caipu/1.0.0/ty_caipu.plist</vurl>
+    <vtime>2017-03-20 14:29:01</vtime>
+    <vtype>1</vtype>
+  </version>
+</Response>

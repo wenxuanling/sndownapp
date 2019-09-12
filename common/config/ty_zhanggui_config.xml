@@ -1,0 +1,173 @@
+<?xml version="1.0"?>
+<Response>
+	
+        <version>
+          <tableid>19</tableid>
+          <vname>2.1.2</vname>
+          <vtitle>iOS通娱掌柜2.1.2发布(搭配通娱A-V3.0.20190830及以上版本)</vtitle>
+          <vdesc>
+		 1）“带客”包厢的颜色改为粉色
+      	  </vdesc>
+          <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/ty_zhanggui/2.1.2/ty_zhanggui.plist</vurl>
+          <vtime>2019-09-02 13:55:27</vtime>
+          <vtype>1</vtype>
+        </version>
+	
+
+        <version>
+          <tableid>18</tableid>
+          <vname>2.0.4</vname>
+          <vtitle>Android通娱掌柜2.0.4发布(搭配通娱A-V3.0.20190830及以上版本)</vtitle>
+          <vdesc>
+		   1）“带客”包厢的颜色改为粉色
+	  </vdesc>
+          <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/ty_zhanggui/2.0.4/zhangGui.apk</vurl>
+          <vtime>2019-09-02 13:55:27</vtime>
+          <vtype>2</vtype>
+        </version>
+	
+        <version>
+          <tableid>17</tableid>
+          <vname>2.0.3</vname>
+          <vtitle>Android通娱掌柜2.0.3发布(搭配通娱2016-V3.0.20171106及以上版本)</vtitle>
+          <vdesc>
+		  在实时包厢页面，支持对包厢打折、预订和赠送：
+		    &lt;br/&gt;1）后台系统-人员设置-菜单权限，移动KTV掌柜新增“打折”、“预订”、“赠送”、“查询”权限
+		    &lt;br/&gt;2）房费折率和商品折率可修改，修改时折扣金额同步变化
+		    &lt;br/&gt;3）房费折率和商品折率不能小于最低折率
+		    &lt;br/&gt;4）除故障外所有房态支持预订
+		    &lt;br/&gt;5）订位人默认为登录人，不可修改，且需有“房台预订”业务权限
+		    &lt;br/&gt;6）赠送功能同移动点单上的
+		    &lt;br/&gt;7）仅使用状态包厢支持打折
+		&lt;br/&gt;8）修复参数“商品点单自动继承包厢最后一次会员卡信息”为“否”时，提示“当前商品价格类型已修改，请刷新房态”，无法点单/赠送的问题
+	  </vdesc>
+          <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/ty_zhanggui/2.0.3/zhangGui.apk</vurl>
+          <vtime>2018-03-26 14:25:57</vtime>
+          <vtype>2</vtype>
+        </version>
+	
+        <version>
+          <tableid>16</tableid>
+          <vname>2.0.2</vname>
+          <vtitle>Android通娱掌柜2.0.2发布(搭配通娱2016-V3.0.20180124及以上版本)</vtitle>
+          <vdesc>
+		  
+		     &lt;br/&gt;1）实时房态查询
+		     &lt;br/&gt;  a、基本信息：增加商品金额、低消金额、低消差额、超消金额、服务费
+		     &lt;br/&gt;  b、商品信息：增加统计赠送金额、计费金额
+		     &lt;br/&gt;  c、增加资源信息
+		     &lt;br/&gt;2）查询分析左上角增加今日统计，统计今日开房数、已结商品、未结商品、商品总额
+		     &lt;br/&gt;3）营收报表增加预订人报表、赠送人报表
+	  </vdesc>
+          <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/ty_zhanggui/2.0.2/zhangGui.apk</vurl>
+          <vtime>2018-02-08 17:25:57</vtime>
+          <vtype>2</vtype>
+        </version>
+	
+	
+        <version>
+          <tableid>15</tableid>
+          <vname>2.1.1</vname>
+          <vtitle>iOS通娱掌柜2.1.1发布(搭配通娱2016-3.0.20171106使用)</vtitle>
+          <vdesc>
+		  房间查询：
+		  &lt;br/&gt;1、基础信息中增加订房人、销售经理、服务员、酒水金额、超销金额
+		  &lt;br/&gt;2、商品信息中增加区分计费、赠送、套餐物品、套餐子物品（对套餐和人员赠送合计）
+		  &lt;br/&gt;3、增加公关信息 （公关分组+名字、上台时间、服务时长、下台时间）
+		  &lt;br/&gt;
+		  &lt;br/&gt;查询分析：
+		  &lt;br/&gt;1、增加 今日开房数、已结酒水金额、未结酒水金额、合计金额
+		  &lt;br/&gt;2、增加 预订分析中增加订房人排行，显示订房人、订房数、预订开房数、退订数
+		  &lt;br/&gt;3、增加 赠送人分析：赠送人、赠送金额
+		  &lt;br/&gt;
+		  &lt;br/&gt;优化包厢列表界面的下拉框，增大到刚好显示最后一栏一半文字，让用户知道还有其它房态，可以下拉
+      	  </vdesc>
+          <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/ty_zhanggui/2.1.1/ty_zhanggui.plist</vurl>
+          <vtime>2018-01-24 09:29:02</vtime>
+          <vtype>1</vtype>
+        </version>
+	
+        <version>
+          <tableid>14</tableid>
+          <vname>2.1.0</vname>
+          <vtitle>iOS通娱掌柜2.1.0发布(搭配通娱2016-3.0.20171106使用)</vtitle>
+          <vdesc>
+      	    1、包厢增加预订、打折、赠送功能，并增加对应的菜单权限控制
+      	  </vdesc>
+          <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/ty_zhanggui/2.1.0/ty_zhanggui.plist</vurl>
+          <vtime>2017-11-07 09:29:02</vtime>
+          <vtype>1</vtype>
+        </version>
+
+  <version>
+    <tableid>13</tableid>
+    <vname>2.0.3</vname>
+    <vtitle>iOS通娱掌柜2.0.3发布(搭配通娱3.0使用)</vtitle>
+    <vdesc>
+1、支持域名注册，优化域名输入
+</vdesc>
+    <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/ty_zhanggui/2.0.3/ty_zhanggui.plist</vurl>
+    <vtime>2017-10-16 14:29:02</vtime>
+    <vtype>1</vtype>
+  </version>
+
+  <version>
+    <tableid>12</tableid>
+    <vname>2.0.2</vname>
+    <vtitle>iOS通娱掌柜2.0.2发布(搭配通娱3.0使用)</vtitle>
+    <vdesc>
+1、增加推送服务：
+   &lt;br/&gt;1）在后台-运营设置-服务设置，配置“移动掌柜推送服务”的运行主机，且该主机需通外网
+   &lt;br/&gt;2）在后台-短信SMS管理-APP信息服务设置，配置想要推送的消息
+   &lt;br/&gt;3）IOS掌柜所在的手机，将收到相应的推送消息，并根据手机设置有对应的响铃/震动提醒
+&lt;br/&gt;2、支持查询多分店数据
+</vdesc>
+    <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/ty_zhanggui/2.0.2/ty_zhanggui.plist</vurl>
+    <vtime>2017-10-12 14:29:02</vtime>
+    <vtype>1</vtype>
+  </version>
+
+
+  <version>
+    <tableid>11</tableid>
+    <vname>2.0.1</vname>
+    <vtitle>Android通娱掌柜2.0.1发布(搭配通娱2.9使用)</vtitle>
+    <vdesc> 1.修复注册参数错误bug</vdesc>
+    <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/ty_zhanggui/2.0.1/zhangGui.apk</vurl>
+    <vtime>2017-05-08 14:29:02</vtime>
+    <vtype>2</vtype>
+  </version>
+  <version>
+    <tableid>10</tableid>
+    <vname>2.0.1</vname>
+    <vtitle>iOS通娱掌柜2.0.1发布(搭配通娱2.9使用)</vtitle>
+    <vdesc>1.修复注册参数错误bug</vdesc>
+    <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/ty_zhanggui/2.0.1/ty_zhanggui.plist</vurl>
+    <vtime>2017-05-08 14:29:02</vtime>
+    <vtype>1</vtype>
+  </version>
+  <version>
+    <tableid>2</tableid>
+    <vname>2.0.0</vname>
+    <vtitle>Android通娱掌柜2.0.0发布(搭配通娱2.8使用)</vtitle>
+    <vdesc>1.服务器地址支持输入域名
+&lt;br/&gt;2.优化调整部分细节和修复bug</vdesc>
+    <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/ty_zhanggui/2.0.0/zhangGui.apk</vurl>
+    <vtime>2017-03-20 14:35:57</vtime>
+    <vtype>2</vtype>
+  </version>
+  <version>
+    <tableid>1</tableid>
+    <vname>2.0.0</vname>
+    <vtitle>iOS通娱掌柜2.0.0发布(搭配通娱2.8使用)</vtitle>
+    <vdesc>1.服务器地址支持输入域名
+&lt;br/&gt;2.优化调整部分细节和修复bug
+&lt;br/&gt;</vdesc>
+    <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/ty_zhanggui/2.0.0/ty_zhanggui.plist</vurl>
+    <vtime>2017-03-20 14:29:02</vtime>
+    <vtype>1</vtype>
+  </version>
+
+
+
+</Response>

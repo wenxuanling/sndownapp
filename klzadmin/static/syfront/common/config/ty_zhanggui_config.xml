@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<Response>
+  <version>
+    <tableid>3</tableid>
+    <vname>2.0.1</vname>
+    <vtitle>iOS通娱掌柜2.0.1发布(搭配通娱2.9使用)</vtitle>
+    <vdesc>
+        1.修复注册参数错误bug
+    </vdesc>
+    <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/ty_zhanggui/2.0.1/ty_zhanggui.plist</vurl>
+    <vtime>2017-05-08 14:29:02</vtime>
+    <vtype>1</vtype>
+  </version>
+  <version>
+    <tableid>1</tableid>
+    <vname>2.0.0</vname>
+    <vtitle>iOS通娱掌柜2.0.0发布(搭配通娱2.8使用)</vtitle>
+    <vdesc>
+        1.服务器地址支持输入域名&lt;br&gt;
+        2.优化调整部分细节和修复bug
+    </vdesc>
+    <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/ty_zhanggui/2.0.0/ty_zhanggui.plist</vurl>
+    <vtime>2017-03-20 14:29:02</vtime>
+    <vtype>1</vtype>
+  </version>
+ <version>
+    <tableid>4</tableid>
+    <vname>2.0.1</vname>
+    <vtitle>Android通娱掌柜2.0.1发布(搭配通娱2.9使用)</vtitle>
+    <vdesc>
+        1.修复注册参数错误bug
+    </vdesc>
+    <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/ty_zhanggui/2.0.1/zhangGui.apk</vurl>
+    <vtime>2017-05-08 14:29:02</vtime>
+    <vtype>2</vtype>
+  </version>
+  <version>
+    <tableid>2</tableid>
+    <vname>2.0.0</vname>
+    <vtitle>Android通娱掌柜2.0.0发布(搭配通娱2.8使用)</vtitle>
+    <vdesc>
+        1.服务器地址支持输入域名&lt;br&gt;
+        2.优化调整部分细节和修复bug
+    </vdesc>
+    <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/ty_zhanggui/2.0.0/zhangGui.apk</vurl>
+    <vtime>2017-03-20 14:29:02</vtime>
+    <vtype>2</vtype>
+  </version>
+</Response>

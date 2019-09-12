@@ -1,0 +1,99 @@
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #fff;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #2ed15f;
+    border-color: #2ed15f;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #5CA05C;
+    border-color: #2ed15f;
+}
+
+.btn-info{
+    border-color: #2ed15f;
+    background-color: #FBFBFB;
+}
+
+.btn-info:hover {
+    border-color: #2ed15f;
+    background-color: #2ed15f;
+}
+
+.btn-info.btn-outline {
+    color: #2ed15f;
+}
+
+.indexdiv{
+    padding-left: 10%;padding-right: 10%;padding-top: 10%;
+}
+
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.content-spacer { height:84px; }
+#content-container { margin:0 auto 18px; width:705px;}
+.content {padding:24px !important; background: #e8e8e8;
+background: -moz-linear-gradient(top, #eeeeee 0%, #cccccc 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(100%,#cccccc));background: -webkit-linear-gradient(top, #eeeeee 0%,#cccccc 100%);background: -o-linear-gradient(top, #eeeeee 0%,#cccccc 100%); background: linear-gradient(to bottom, #e8e8e8 0%,#cccccc 100%);
+	border: 1px solid #bbb !important; border-top: none !important; box-shadow:0px 2px 2px rgba(0, 0, 0, .1);
+border-radius: 6px; -webkit-border-radius: 6px; -moz-border-radius: 6px; -o-border-radius: 6px; -khtml-border-radius: 6px; }
+.divider { width:100%; display: block; margin:0 0 18px 0; border-top:1px dotted #AAAAAA;}
+.offscreen { left:-100000px !important; }
+label {display: none;}
+
+#globalheader { height:60px; width:100%;}
+#globalheader h1 a { position: relative; left: -12px; width:182px; height:40px; margin:0 auto; display: block; background-image:url(https://devimages.apple.com.edgekey.net/assets/elements/header/developer-logo-white.png); }
+#globalheader #gh-nav, #globalheader #gh-search { display:none; }
+
+#globalfooter { position:absolute; bottom:0; width:100%; margin:0; padding:0; }
+#globalfooter .gf-buy,
+#globalfooter .gf-links { display:none; }
+#globalfooter .gf-sosumi { margin:0 auto 30px auto; border-top:0; font-size:11px; color:#ccc; text-align: center; }
+#globalfooter .gf-sosumi p { display: inline-block; float: none; vertical-align: top; margin-bottom:0; }
+#globalfooter .gf-sosumi ul.piped {display: inline-block;}
+#globalfooter .gf-sosumi ul.piped a { padding-left:10px !important; color:#ccc !important; }
+#globalfooter #localization-links  { display:none; }
+
+
+
+
+

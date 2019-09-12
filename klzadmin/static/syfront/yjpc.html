@@ -1,0 +1,99 @@
+$def with(sourcelist)
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/static/syfront/common/logo.png">
+
+    <title>App在线安装</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/static/syfront/common/css/bootstrap.min.css" rel="stylesheet" >
+
+
+    <link href="/static/syfront/common/css/sb-admin-2.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="/static/syfront/common/css/login.css" rel="stylesheet" >
+	
+    <link href="/static/syfront/common/css/timeline.css" rel="stylesheet" >
+
+    <link href="/static/syfront/common/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <script type="text/javascript" src="/static/syfront/common/js/common.js"></script>
+
+
+    <style type="text/css">
+      .timeline:before
+      {
+        left: 95%;
+      }
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <div class="container" align="center">
+	<form class="form-signin" role="form" method="post">
+		
+		<img id="logoimg" style="margin-top:30px;margin-bottom: 30px" src="/static/syfront/common/yjlogo.png" />
+
+
+	</form>
+
+    </div> <!-- /container -->
+
+<div class="col-lg-8"  style="padding-left: 0px;padding-right: 0px;">
+<div class="panel panel-success">
+    <div class="panel-heading">
+        <i class="fa fa-clock-o fa-fw"></i>PC历史版本
+    </div>
+    <!-- /.panel-heading -->
+    <div class="panel-body" style="padding-left: 15px;">
+        <ul class="timeline" id="versionlist" >
+            $for s in sourcelist:
+                <li>
+                    <div class='timeline-badge info' style="left: 95%">
+
+                    </div>
+                    <div class='timeline-panel' style="width: 90%">
+                        <div class='timeline-heading'>
+                            <h4 class='timeline-title'>
+                                $s.vtitle
+                            </h4>
+                            <p>
+                                <small class='text-muted'><i class='fa fa-clock-o'></i>
+                                    $s.vtime
+                                </small>
+                            </p>
+
+                             $for t in s.templist:
+                               <h4 class="timeline-title">
+                                   <a href="$t['str2']">$t['str1']<lable style="color: red">(密码:$t['str3'])</lable></a>
+                               </h4>
+                            <p title="$s.vdesc">
+                                $:s.newvdesc
+                            </p>
+                        </div>
+                        <div class=‘timeline-body’><p></p>
+                        </div>
+                    </div>
+                </li>
+
+        </ul>
+    </div>
+    <!-- /.panel-body -->
+</div>
+</div>
+
+
+
+
+  </body>
+</html>

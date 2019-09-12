@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<Response>
+	
+        <version>
+          <tableid>2</tableid>
+          <vname>1.0.0</vname>
+          <vtitle>Android娱加资源V1.0.0发布(搭配娱加-V3.1.20190709及及以上版本使用)</vtitle>
+          <vdesc>  
+		  &lt;br/&gt;1)后台-人员设置-业务权限，新增移动资源APP相关权限
+		     &lt;br/&gt;2)后台-人员设置-特殊权限，新增权限“资源业绩报表可查人员权限”和“可以修改所有资源人”
+		     &lt;br/&gt;3)后台-营业参数设置-基础资料参数，新增“资源新建人员默认密码”，并初始化原有资源密码
+		     &lt;br/&gt;4)资源-资源信息设置，新增“密码重置”、“显示二维码”和“保存二维码”
+		     &lt;br/&gt;5)后台-短信SMS管理-APP信息服务设置，新增信息提醒“花单点单资源人”和“花单点单可见人”
+		     &lt;br/&gt;6)资源登录支持接收本人花单点单提醒和本人资源业绩报表、展示本人二维码
+		     &lt;br/&gt;7)资源组长登录支持接收本组成员花单点单提醒和本组成员资源业绩报表、支持新增修改资源，并支持预订卡台和查询使用卡台
+		     &lt;br/&gt;8)其余员工登录按权限设置支持查看关注资源人花单点单提醒和资源业绩报表、修改资源
+		</vdesc> <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/yj_ziyuan/1.0.0/yj_ziyuan.apk</vurl>
+          <vtime>2019-07-09 18:11:02</vtime>
+          <vtype>2</vtype>
+        </version>
+	
+        <version>
+          <tableid>1</tableid>
+          <vname>1.0.0</vname>
+          <vtitle>iOS娱加资源V1.0.0发布(搭配娱加-V3.1.20190709及及以上版本使用)</vtitle>
+          <vdesc>  
+		  &lt;br/&gt;1)后台-人员设置-业务权限，新增移动资源APP相关权限
+		     &lt;br/&gt;2)后台-人员设置-特殊权限，新增权限“资源业绩报表可查人员权限”和“可以修改所有资源人”
+		     &lt;br/&gt;3)后台-营业参数设置-基础资料参数，新增“资源新建人员默认密码”，并初始化原有资源密码
+		     &lt;br/&gt;4)资源-资源信息设置，新增“密码重置”、“显示二维码”和“保存二维码”
+		     &lt;br/&gt;5)后台-短信SMS管理-APP信息服务设置，新增信息提醒“花单点单资源人”和“花单点单可见人”
+		     &lt;br/&gt;6)资源登录支持接收本人花单点单提醒和本人资源业绩报表、展示本人二维码
+		     &lt;br/&gt;7)资源组长登录支持接收本组成员花单点单提醒和本组成员资源业绩报表、支持新增修改资源，并支持预订卡台和查询使用卡台
+		     &lt;br/&gt;8)其余员工登录按权限设置支持查看关注资源人花单点单提醒和资源业绩报表、修改资源
+		</vdesc> <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/yj_ziyuan/1.0.0/yj_ziyuan.plist</vurl>
+          <vtime>2019-07-09 18:11:02</vtime>
+          <vtype>1</vtype>
+        </version>
+	
+	
+  
+</Response>

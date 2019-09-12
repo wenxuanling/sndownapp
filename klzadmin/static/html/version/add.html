@@ -1,0 +1,79 @@
+$def with (opcode)
+
+$var isshowleft:1
+$var cssfiles:
+$var title: 平台
+
+$var opcode:opcode
+
+
+<script>
+    var opcode=$opcode;
+
+</script>
+
+<script type="text/javascript" src="static/html/js/index_js.js"  charset="gb2312"></script>
+
+<form role="form" method="post">
+
+     <div class="form-group">
+        <label>版本号</label>
+        <input class="form-control" value="" name="vname">
+    </div>
+
+     <div class="form-group">
+        <label>版本标题</label>
+        <input class="form-control" value="" name="vtitle">
+    </div>
+
+    <div class="form-group">
+        <label>版本更新详情</label>
+        <textarea class="form-control" rows="15" name="vdesc"></textarea>
+    </div>
+
+
+     <div class="form-group">
+        <label>版本下载地址</label>
+        <input class="form-control" value="" name="vurl">
+    </div>
+
+    <div class="form-group">
+        <label>版本发布时间</label>
+                <input class="form-control" value="" name="vtime" id="nowtime">
+         <script type="text/javascript">
+            document.getElementById('nowtime').value = getNowFormatDate();
+         </script>
+    </div>
+
+     <div class="form-group">
+        <label>版本类型</label>
+        <select id="vtype" class="form-control" name="vtype">
+            <option value ="1">Ios</option>
+            <option value ="2">Android</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label>是否显示</label>
+        <select id="isshow" class="form-control" name="isshow">
+            <option value ="0">是</option>
+            <option value ="-1">否</option>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-default">Submit Button</button>
+    <!--<button type="reset" class="btn btn-default">Reset Button</button>-->
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+</form>
+
+
+
+
+
+
+        

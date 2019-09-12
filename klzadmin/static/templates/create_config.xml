@@ -1,0 +1,14 @@
+$def with (version_info)
+<?xml version="1.0"?>
+<Response>
+  $for v in version_info:
+  <version>
+    <tableid>$v.tableid</tableid>
+    <vname>$v.vname</vname>
+    <vtitle>$v.vtitle</vtitle>
+    <vdesc>$v.vdesc</vdesc>
+    <vurl>$v.vurl</vurl>
+    <vtime>$v.vtime</vtime>
+    <vtype>$v.vtype</vtype>
+  </version>
+</Response>

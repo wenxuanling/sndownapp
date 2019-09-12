@@ -1,0 +1,140 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="common/logo.png">
+
+    <title>测试选择App</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="common/css/bootstrap.min.css" rel="stylesheet" >
+
+    <!-- Custom styles for this template -->
+
+	
+    <link href="common/css/timeline.css" rel="stylesheet" >
+
+    <link href="common/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <link href="common/css/sb-admin-2.css" rel="stylesheet" type="text/css">
+
+    <link href="common/css/login.css" rel="stylesheet" >
+
+    <script type="text/javascript" src="common/js/common.js"></script>
+
+  </head>
+
+  <body style="padding-top: 10px">
+
+    <h1 align="center" style="color: red">测试专用</h1>
+
+<div id="" align="center" style="margin-top: 15px">
+
+
+<div id="left" style="float:left ;  width:50%;  height:100%;">
+    <div class="">
+                    <div align="center" class="indexdiv">
+                        <div  >
+                            <img  src="common/yjlogo.png" style="width:50%;  height:50%;" />
+                        </div>
+                        <div >
+                            <p>娱加点单</p>
+
+                              <a  id="ios1" style="visibility: hidden" class='btn btn-primary btn-lg btn-block' href='test/html/index.html?vtype=1&stype=3'><i class="fa fa-apple fa-fw"></i>iOS</a>
+
+                              <a  id="android1" style="visibility: hidden" class='btn btn-info btn-outline btn-lg btn-block' href='test/html/index.html?vtype=2&stype=3'><i class="fa fa-android fa-fw"></i>Android</a>
+
+                         </div>
+
+                    </div>
+                </div>
+</div>
+
+
+<div id="left" style="float:left ;  width:50%;  height:100%;">
+    <div class="">
+                    <div align="center" class="indexdiv">
+                        <div  >
+                            <img  src="common/yjzglogo.png" style="width:50%;  height:50%;" />
+                        </div>
+                        <div >
+                            <p>娱加掌柜</p>
+
+                              <a id="ios2" style="visibility: hidden" class='btn btn-primary btn-lg btn-block' href="test/html/index.html?vtype=1&stype=5"><i class="fa fa-apple fa-fw"></i>iOS</a>
+
+                              <a id="android2" style="visibility: hidden" class='btn btn-info btn-outline btn-lg btn-block' href="test/html/index.html?vtype=2&stype=5"><i class="fa fa-android fa-fw"></i>Android</a>
+
+                         </div>
+
+                    </div>
+                </div>
+</div>
+
+
+    
+    <div id="left" style="float:left ;  width:50%;  height:100%;" >
+        <div class="" >
+            <div align="center" class="indexdiv">
+                <div  >
+                    <img  src="common/yjzylogo.png" style="width:50%;  height:50%;" />
+                </div>
+                <div >
+                    <p>娱加资源</p>
+
+                    <a id="ios3" style="visibility: hidden" class='btn btn-primary btn-lg btn-block' href="test/html/index.html?vtype=1&stype=7"><i class="fa fa-apple fa-fw"></i>iOS</a>
+
+                    <a id="android3" style="visibility: hidden" class='btn btn-info btn-outline btn-lg btn-block' href="test/html/index.html?vtype=2&stype=7"><i class="fa fa-android fa-fw"></i>Android</a>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+</div>
+
+
+	<div align="center" id="globalfooter">
+		<p><small>Copyright &copy; 2016 Star Net eVideo Inc. All rights reserved.</small></p>
+	</div>
+
+
+
+
+  </body>
+</html>
+
+
+
+        <script type="text/javascript">
+         var vtype = GetQueryString("vtype");
+         var ios1 = document.getElementById('ios1');
+         var ios2 = document.getElementById('ios2');
+         var android1 = document.getElementById('android1');
+         var android2 = document.getElementById('android2');
+
+         if(vtype == 1){
+            ios1.style.visibility="visible";
+            ios2.style.visibility="visible";
+	    ios3.style.visibility="visible";
+            android1.style.visibility="hidden";
+            android2.style.visibility="hidden";
+	    android3.style.visibility="hidden";
+         }
+         if(vtype == 2){
+            ios1.style.visibility="hidden";
+            ios2.style.visibility="hidden";
+	    ios3.style.visibility="hidden";
+            android1.style.visibility="visible";
+            android2.style.visibility="visible";
+	    android3.style.visibility="visible";
+         }
+        </script>

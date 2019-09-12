@@ -1,0 +1,14 @@
+$def with(content)
+<html>
+<head>
+    <title>$content.test112</title>
+    $if content.cssfiles:
+        $for f in content.cssfiles.split():
+            <link rel="stylesheet" href="$f" type="text/css" media="screen" charset="utf-8"/>
+</head>
+<body>
+$content.title
+$content.test112
+$:content
+</body>
+</html>

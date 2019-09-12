@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<Response>
+   <version>
+    <tableid>3</tableid>
+    <vname>2.0.1</vname>
+    <vtitle>iOS通娱点单2.0.1发布(搭配通娱2.9使用)</vtitle>
+    <vdesc>
+        1.修复注册参数错误bug
+    </vdesc>
+    <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/ty_order/2.0.1/ty_order.plist</vurl>
+    <vtime>2017-05-08 14:29:02</vtime>
+    <vtype>1</vtype>
+  </version>
+  <version>
+    <tableid>1</tableid>
+    <vname>2.0.0</vname>
+    <vtitle>iOS通娱点单2.0.0发布(搭配通娱2.8使用)</vtitle>
+    <vdesc>
+        1.支持微信，支付宝支付&lt;br&gt;
+        2.全新的UI风格&lt;br&gt;
+        3.服务器地址支持输入域名&lt;br&gt;
+        4.优化细节功能和交互
+    </vdesc>
+    <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/ty_order/2.0.0/ty_order.plist</vurl>
+    <vtime>2017-03-20 14:29:02</vtime>
+    <vtype>1</vtype>
+  </version>
+  <version>
+    <tableid>4</tableid>
+    <vname>2.0.1</vname>
+    <vtitle>Android通娱点单2.0.1发布(搭配通娱2.9使用)</vtitle>
+    <vdesc>
+        1.修复注册参数错误bug
+    </vdesc>
+    <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/ty_order/2.0.1/newKTVOrder.apk</vurl>
+    <vtime>2017-05-08 14:29:02</vtime>
+    <vtype>2</vtype>
+  </version>
+  <version>
+    <tableid>2</tableid>
+    <vname>2.0.0</vname>
+    <vtitle>Android通娱点单2.0.0发布(搭配通娱2.8使用)</vtitle>
+    <vdesc>
+        1.支持微信，支付宝支付&lt;br&gt;
+        2.全新的UI风格&lt;br&gt;
+        3.服务器地址支持输入域名&lt;br&gt;
+        4.优化细节功能和交互&lt;br&gt;
+    </vdesc>
+    <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/ty_order/2.0.0/newKTVOrder.apk</vurl>
+    <vtime>2017-03-20 14:29:02</vtime>
+    <vtype>2</vtype>
+  </version>
+</Response>

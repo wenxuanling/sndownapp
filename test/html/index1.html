@@ -1,0 +1,96 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../common/logo.png">
+
+    <title>在线安装</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../common/css/bootstrap.min.css" rel="stylesheet" >
+
+
+    <link href="../../common/css/sb-admin-2.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="../../common/css/login.css" rel="stylesheet" >
+	
+    <link href="../../common/css/timeline.css" rel="stylesheet" >
+
+    <link href="../../common/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <script type="text/javascript" src="../../common/js/common.js"></script>
+
+
+  </head>
+
+  <body>
+
+        <h1 align="center" style="color: red">临时专用</h1>
+
+    <div class="container" align="center">
+	<form bclass="form-signin" role="form" method="post">
+		
+		<img id="logoimg" style="margin-top:30px;margin-bottom: 30px" src="../../common/tylogo.png" />
+        <a  id="topbtn" class='btn btn-lg  btn-block' href=''>iOS安装版本</a>
+
+        <script type="text/javascript">
+         var vtype_que = GetQueryString("vtype");
+         var stype = GetQueryString("stype");
+         var topbtn = document.getElementById('topbtn');
+         var logoimg = document.getElementById('logoimg');
+
+         if(vtype_que == 1){
+            topbtn.innerHTML = "<i class='fa fa-apple fa-fw'></i>iPhone安装版本";
+             if(stype==1){
+                 topbtn.href = "itms-services://?action=download-manifest&url=https://yj.evideocloud.com.cn/app/test/app/ios/ty_order/ty_order.plist";
+             }
+             if(stype==2){
+                 topbtn.href = "itms-services://?action=download-manifest&url=https://yj.evideocloud.com.cn/app/test/app/ios/ty_zhanggui/ty_zhanggui.plist";
+                 logoimg.src= "../../common/zglogo.png";
+             }
+             if(stype==3){
+                 topbtn.href = "itms-services://?action=download-manifest&url=https://yj.evideocloud.com.cn/app/test/app/ios/yj_order/yj_order.plist";
+                 logoimg.src= "../../common/yjlogo.png";
+             }
+             if(stype==5){
+                 topbtn.href = "itms-services://?action=download-manifest&url=https://yj.evideocloud.com.cn/app/test/app/ios/yj_zhanggui/yj_zhanggui.plist";
+                 logoimg.src= "../../common/yjzglogo.png";
+             }
+            topbtn.className += ' btn-primary ';
+         }
+         if(vtype_que == 2){
+            topbtn.innerHTML = "<i class='fa fa-android fa-fw'></i>Android安装测试版本";
+             if(stype==1){
+                  topbtn.href = "https://yj.evideocloud.com.cn/app/test/app/android/ty_order/newKTVOrder.apk";
+             }
+             if(stype==2){
+                  topbtn.href = "https://yj.evideocloud.com.cn/app/test/app/android/ty_zhanggui/zhangGui.apk";
+                  logoimg.src= "../../common/zglogo.png";
+             }
+             if(stype==3){
+                  topbtn.href = "https://yj.evideocloud.com.cn/app/test/app/android/yj_order/barKTVOrder.apk";
+                  logoimg.src= "../../common/yjlogo.png";
+             }
+             if(stype==5){
+                  topbtn.href = "https://yj.evideocloud.com.cn/app/test/app/android/yj_zhanggui/barZhangGui.apk";
+                  logoimg.src= "../../common/yjzglogo.png";
+             }
+            topbtn.className += ' btn-info btn-outline'; // 注意前面加空格，防止两个属性挨一起
+         }
+        </script>
+
+	</form>
+
+    </div> <!-- /container -->
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,162 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../common/logo.png">
+
+    <title>App在线安装</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../common/css/bootstrap.min.css" rel="stylesheet" >
+
+
+    <link href="../../common/css/sb-admin-2.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="../../common/css/login.css" rel="stylesheet" >
+	
+    <link href="../../common/css/timeline.css" rel="stylesheet" >
+
+    <link href="../../common/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <script type="text/javascript" src="../../common/js/common.js"></script>
+
+
+  </head>
+
+  <body>
+
+    <div class="container" align="center">
+	<form class="form-signin" role="form" method="post">
+		
+		<img id="logoimg" style="margin-top:30px;margin-bottom: 30px" src="../../common/tylogo.png" />
+        <a  id="topbtn" class='btn btn-lg  btn-block' href=''>iOS安装版本</a>
+
+        <script type="text/javascript">
+         var vtype_que = GetQueryString("vtype");
+         var stype = GetQueryString("stype");
+         var topbtn = document.getElementById('topbtn');
+         var logoimg = document.getElementById('logoimg');
+
+         if(vtype_que == 1){
+            topbtn.innerHTML = "<i class='fa fa-apple fa-fw'></i>iOS安装版本";
+             if(stype==100){
+                 topbtn.href = "itms-services://?action=download-manifest&url=https://yj.evideocloud.com.cn/app/distribution/otherapp/ios/jt_order/jt_order.plist";
+                 logoimg.src= "../../common/otherlogo/jtlogo.png";
+             }
+             if(stype==101){
+                 topbtn.href = "itms-services://?action=download-manifest&url=https://yj.evideocloud.com.cn/app/distribution/otherapp/ios/jt_yingbin/jt_yingbin.plist";
+                 logoimg.src= "../../common/otherlogo/jtyblogo.png";
+             }
+             if(stype==102){
+                 topbtn.href = "itms-services://?action=download-manifest&url=https://yj.evideocloud.com.cn/app/distribution/otherapp/ios/jt_zhanggui/jt_zhanggui.plist";
+                 logoimg.src= "../../common/otherlogo/jtzglogo.png";
+             }
+             if(stype==200){
+                 topbtn.href = "itms-services://?action=download-manifest&url=https://yj.evideocloud.com.cn/app/distribution/otherapp/ios/yt_order/yt_order.plist";
+                 logoimg.src= "../../common/otherlogo/ytlogo.png";
+             }
+             if(stype==201){
+                 topbtn.href = "itms-services://?action=download-manifest&url=https://yj.evideocloud.com.cn/app/distribution/otherapp/ios/yt_yingbin/yt_yingbin.plist";
+                 logoimg.src= "../../common/otherlogo/ytyblogo.png";
+             }
+             if(stype==202){
+                 topbtn.href = "itms-services://?action=download-manifest&url=https://yj.evideocloud.com.cn/app/distribution/otherapp/ios/yt_zhanggui/yt_zhanggui.plist";
+                 logoimg.src= "../../common/otherlogo/ytzglogo.png";
+             }
+            topbtn.className += ' btn-primary ';
+         }
+         if(vtype_que == 2){
+            topbtn.innerHTML = "<i class='fa fa-android fa-fw'></i>Android安装版本";
+             if(stype==100){
+                  topbtn.href = "https://yj.evideocloud.com.cn/app/distribution/otherapp/android/jt_order/DsKtvOrder.apk";
+                  logoimg.src= "../../common/otherlogo/jtlogo.png";
+             }
+             if(stype==102){
+                  topbtn.href = "https://yj.evideocloud.com.cn/app/distribution/otherapp/android/jt_zhanggui/DsKTVDecisionMaking.apk";
+                  logoimg.src= "../../common/otherlogo/jtzglogo.png";
+             }
+             if(stype==200){
+                  topbtn.href = "https://yj.evideocloud.com.cn/app/distribution/otherapp/android/yt_order/KTVorder.apk";
+                  logoimg.src= "../../common/otherlogo/ytlogo.png";
+             }
+             if(stype==202){
+                  topbtn.href = "https://yj.evideocloud.com.cn/app/distribution/otherapp/android/yt_zhanggui/KTVDecisionMaking.apk";
+                  logoimg.src= "../../common/otherlogo/ytzglogo.png";
+             }
+            topbtn.className += ' btn-info btn-outline'; // 注意前面加空格，防止两个属性挨一起
+         }
+        </script>
+
+	</form>
+
+    </div> <!-- /container -->
+
+<div class="col-lg-8"  style="padding-left: 0px;padding-right: 0px;">
+<div class="panel panel-success">
+    <div class="panel-heading">
+        <i class="fa fa-clock-o fa-fw"></i>历史版本
+    </div>
+    <!-- /.panel-heading -->
+    <div class="panel-body" style="padding-left: 15px;">
+        <ul class="timeline" id="versionlist">
+
+            <script type="text/javascript">
+                 var filestr = "../../common/config/otherconfig/";
+                 if(stype==100){
+                     filestr +="jt_order_config.xml";
+                 }
+                 if(stype==101){
+                     filestr +="jt_yingbin_config.xml";
+                 }
+                 if(stype==102){
+                     filestr +="jt_zhanggui_config.xml";
+                 }
+                 if(stype==200){
+                     filestr +="yt_order_config.xml";
+                 }
+                 if(stype==201){
+                     filestr +="yt_yingbin_config.xml";
+                 }
+                 if(stype==202){
+                     filestr +="yt_zhanggui_config.xml";
+                 }
+                 var xmldoc=LoadXMLFile(filestr);
+
+                 var first=xmldoc.getElementsByTagName("version");
+                 for (var i = 0; i < first.length; i++) {
+                     var vtype = first[i].getElementsByTagName("vtype")[0].firstChild.nodeValue;
+                     if (vtype != vtype_que) {
+                         continue;
+                     }
+                     var vname = first[i].getElementsByTagName("vname")[0].firstChild.nodeValue;
+                     var vtitle = first[i].getElementsByTagName("vtitle")[0].firstChild.nodeValue;
+                     var vdesc = first[i].getElementsByTagName("vdesc")[0].firstChild.nodeValue;
+                     var vurl = first[i].getElementsByTagName("vurl")[0].firstChild.nodeValue;
+                     var vtime = first[i].getElementsByTagName("vtime")[0].firstChild.nodeValue;
+                     var vtype = first[i].getElementsByTagName("vtype")[0].firstChild.nodeValue;
+                     document.getElementById("versionlist").innerHTML += "<li><div class='timeline-badge info'></div>" +
+                             "<div class='timeline-panel'><div class='timeline-heading'><h4 class='timeline-title'><a href="+vurl+">"+vtitle+"</a></h4>" +
+                             "<p><small class='text-muted'><i class='fa fa-clock-o'></i> "+vtime+"</small></p></div>" +
+                             "<div class=‘timeline-body’><p>"+vdesc+"</p>" +
+                             "</div></div></li>";
+                 }
+
+            </script>
+
+        </ul>
+    </div>
+    <!-- /.panel-body -->
+</div>
+</div>
+
+
+
+
+  </body>
+</html>

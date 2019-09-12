@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Response>
+    <version>
+    <tableid>1</tableid>
+    <vname>1.0.0</vname>
+    <vtitle>iOS版 360°KTV迎宾（赢通）</vtitle>
+    <vdesc> 360°娱乐KTV迎宾系统是专门针对中高端量贩KTV经营场所独立设计的智能移动迎宾客户端软件，场所迎宾人员通过iPad，即可便捷实现带客、开房、关房等业务过程的移动管理，更能随时随地为顾客展示场所的包厢价格、酒水价格以及最新的促销活动，大大简化业务管理流程，有效实现服务效率快速提升，提高场所的服务质量。
+&lt;br/&gt;基本功能
+&lt;br/&gt;1、	全新包厢布局设计，便于用户实现快速定位查询，包括状态、订房人等
+&lt;br/&gt;2、	支持移动带客
+&lt;br/&gt;3、	支持移动开房及空置
+&lt;br/&gt;4、	支持酒水及包厢价格查询
+&lt;br/&gt;5、	支持场所促销活动查询
+&lt;br/&gt;6、	支持包厢区域过滤与包厢状态过滤
+&lt;br/&gt;亮点功能
+&lt;br/&gt;1、	实现快速定位包厢
+&lt;br/&gt;2、	实现预订客与散客的快速带客
+&lt;br/&gt;3、	一键开房
+</vdesc>
+    <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/otherapp/ios/yt_yingbin/yt_yingbin.plist</vurl>
+    <vtime>2017-03-20 14:29:02</vtime>
+    <vtype>1</vtype>
+  </version>
+</Response>

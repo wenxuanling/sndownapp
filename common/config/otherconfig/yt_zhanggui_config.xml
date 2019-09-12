@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<Response>
+    <version>
+    <tableid>1</tableid>
+    <vname>1.0.0</vname>
+    <vtitle>iOS版 360°KTV掌柜（赢通）</vtitle>
+    <vdesc>  360°娱乐KTV掌柜是专门针对高端量贩KTV、连锁量贩KTV等经营场所独立设计的智能移动决策软件，场所投资人通过IPHONE，即可随时随地掌握旗下场所的经营情况，经营管理者亦能高屋建瓴，便捷高效地进行各种管理活动，助力场所实现即时决策，控制风险。
+&lt;br/&gt;	基本功能
+&lt;br/&gt;	多场所访问
+&lt;br/&gt;	营业汇总
+&lt;br/&gt;	酒水报表
+&lt;br/&gt;	包房报表
+&lt;br/&gt;	会员报表
+&lt;br/&gt;	实时房态
+&lt;br/&gt;	营业额分析
+&lt;br/&gt;	赠送分析
+&lt;br/&gt;	支付分析
+&lt;br/&gt;	开房分析
+&lt;br/&gt;	酒水销售分析
+&lt;br/&gt;	预订分析
+&lt;br/&gt;	房费分析
+&lt;br/&gt;	我的消息
+</vdesc>
+    <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/otherapp/ios/yt_zhanggui/yt_zhanggui.plist</vurl>
+    <vtime>2017-03-20 14:29:02</vtime>
+    <vtype>1</vtype>
+  </version>
+
+    <version>
+    <tableid>2</tableid>
+    <vname>1.0.0</vname>
+    <vtitle>Android版 360°KTV掌柜（赢通）</vtitle>
+    <vdesc>  360°娱乐KTV掌柜是专门针对高端量贩KTV、连锁量贩KTV等经营场所独立设计的智能移动决策软件，场所投资人通过IPHONE，即可随时随地掌握旗下场所的经营情况，经营管理者亦能高屋建瓴，便捷高效地进行各种管理活动，助力场所实现即时决策，控制风险。
+&lt;br/&gt;	基本功能
+&lt;br/&gt;	多场所访问
+&lt;br/&gt;	营业汇总
+&lt;br/&gt;	酒水报表
+&lt;br/&gt;	包房报表
+&lt;br/&gt;	会员报表
+&lt;br/&gt;	实时房态
+&lt;br/&gt;	营业额分析
+&lt;br/&gt;	赠送分析
+&lt;br/&gt;	支付分析
+&lt;br/&gt;	开房分析
+&lt;br/&gt;	酒水销售分析
+&lt;br/&gt;	预订分析
+&lt;br/&gt;	房费分析
+&lt;br/&gt;	我的消息
+</vdesc>
+    <vurl>https://yj.evideocloud.com.cn/app/distribution/otherapp/android/yt_zhanggui/KTVDecisionMaking.apk</vurl>
+    <vtime>2017-03-20 14:29:02</vtime>
+    <vtype>2</vtype>
+  </version>
+
+</Response>

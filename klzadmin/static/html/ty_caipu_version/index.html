@@ -1,0 +1,85 @@
+$def with (sourcelist,opcode)
+
+$var isshowleft:1
+$var cssfiles:
+$var title: 平台
+
+$var opcode:opcode
+
+
+
+
+     <!-- /.col-lg-12 -->
+<button type="button" class="btn btn-default" onclick="location='/ty_caipu_version?action=add&opcode=3'">Add</button>
+<br/><br/>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            通娱移动掌柜版本信息
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>编号</th>
+                                            <th>版本号</th>
+                                            <th>版本标题</th>
+                                            <th>版本更新详情</th>
+                                            <th>版本下载地址</th>
+                                            <th>版本发布时间</th>
+                                            <th>版本类型</th>
+                                            <th>是否显示</th>
+                                            <th>Control</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        $for s in sourcelist
+                                            <tr>
+                                                <td>$s.tableid</td>
+                                                <td>$s.vname</td>
+                                                <td>$s.vtitle</td>
+                                                <td>$s.vdesc</td>
+                                                <td>$s.vurl</td>
+                                                <td>$s.vtime</td>
+                                                <td>
+                                                    $if s.vtype == 1:
+                                                       Ios
+                                                    $if s.vtype == 2:
+                                                       Android
+                                                </td>
+                                                <td>
+                                                    $if s.isshow == 0:
+                                                       是
+                                                    $if s.isshow == -1:
+                                                       否
+                                                </td>
+                                                <td>
+                                                <a  href="/ty_caipu_version?action=edit&opcode=3&primaryid=$s.tableid"><i class="fa fa-edit"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                <a  href=javascript:claimDelete("/ty_caipu_version?action=del&opcode=3&primaryid=$s.tableid")><i class="fa fa-times"></i></a>
+                                                 </td>
+
+                                            </tr>
+
+
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!-- /.table-responsive -->
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+
+
+
+<script>
+    var opcode=$opcode;
+
+</script>
+
+
+<script type="text/javascript" src="static/html/js/index_js.js"  charset="gb2312"></script>
+
+
+        

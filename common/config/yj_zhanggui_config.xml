@@ -1,0 +1,207 @@
+<?xml version="1.0"?>
+<Response>
+	
+        <version>
+            <tableid>13</tableid>
+            <vname>1.0.4</vname>
+            <vtitle>Android娱加掌柜1.0.4发布(搭配娱加-V3.1.20190815及以上版本使用)</vtitle>
+            <vdesc>1)卡台查询新增订位人和点单时间
+   &lt;br/&gt;2)新增“卡台即时排行报表”，并支持仅统计当前和不统计当前
+   &lt;br/&gt;3)新增“商品明细销售报表”，并支持按统计类查询
+            </vdesc>
+            <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/yj_zhanggui/1.0.4/barZhangGui.apk</vurl>
+            <vtime>2019-08-15 17:29:02</vtime>
+            <vtype>2</vtype>
+        </version>
+	
+	
+	
+        <version>
+            <tableid>12</tableid>
+            <vname>1.0.7</vname>
+            <vtitle>iOS娱加掌柜1.0.7发布(搭配娱加-V3.1.20190815及以上版本使用)</vtitle>
+            <vdesc>  1)移动掌柜APP查询报表一一新增权限控制
+            </vdesc>
+            <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/yj_zhanggui/1.0.7/yj_zhanggui.plist</vurl>
+            <vtime>2019-08-15 17:29:02</vtime>
+            <vtype>1</vtype>
+        </version>
+	
+	
+        <version>
+            <tableid>11</tableid>
+            <vname>1.0.3</vname>
+            <vtitle>Android娱加掌柜1.0.3发布(搭配娱加-V3.0.20190524及以上版本使用)</vtitle>
+            <vdesc>1)卡台查询新增订位人和点单时间
+   &lt;br/&gt;2)新增“卡台即时排行报表”，并支持仅统计当前和不统计当前
+   &lt;br/&gt;3)新增“商品明细销售报表”，并支持按统计类查询
+            </vdesc>
+            <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/yj_zhanggui/1.0.3/barZhangGui.apk</vurl>
+            <vtime>2019-05-24 14:29:02</vtime>
+            <vtype>2</vtype>
+        </version>
+	
+	
+	
+        <version>
+            <tableid>10</tableid>
+            <vname>1.0.6</vname>
+            <vtitle>iOS娱加掌柜1.0.6发布(搭配娱加-V3.0.20190524及以上版本使用)</vtitle>
+            <vdesc>  1)卡台查询新增订位人和点单时间
+   &lt;br/&gt;2)新增“卡台即时排行报表”，并支持仅统计当前和不统计当前
+   &lt;br/&gt;3)新增“商品明细销售报表”，并支持按统计类查询
+            </vdesc>
+            <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/yj_zhanggui/1.0.6/yj_zhanggui.plist</vurl>
+            <vtime>2019-05-24 14:29:02</vtime>
+            <vtype>1</vtype>
+        </version>
+			
+    <version>
+        <tableid>9</tableid>
+        <vname>1.0.5</vname>
+        <vtitle>iOS娱加掌柜1.0.5发布(搭配娱加-V3.0.20190417及以上版本使用)</vtitle>
+        <vdesc>  1)查询分析-营收报表，所有报表自定义时间查询新增时段选择
+            &lt;br/&gt;2)查询分析-营收报表-包台报表，新增统计开台数并新增按经营方式统计开台数
+            &lt;br/&gt;3)查询分析-营收报表，新增业绩报表
+            &lt;br/&gt;a)业绩报表支持切换查询销售经理、订位人、点单员业绩报表
+            &lt;br/&gt;b)业绩报表支持切换查询全部账单、商品账单和花单账单
+            &lt;br/&gt;c)业绩报表可查部门和人员业绩受特殊权限“业绩报表可查人员权限”控制
+            &lt;br/&gt;4)查询分析-营收分析-营业额分析/赠送分析/开台分析/预订分析修改
+            &lt;br/&gt;a)报表查询条件去掉“上周”，新增“今天”
+            &lt;br/&gt;b)报表查询“今天”和“本周”时，同时查询环比数据“昨天”和“上周”
+            &lt;br/&gt;c)后台-数据维护，新增“数据汇总时段”，掌柜营收分析今天的数据按配置时段汇总
+            &lt;br/&gt;5)登录新增分店列表，支持保存不同分店的网络配置
+        </vdesc>
+        <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/yj_zhanggui/1.0.5/yj_zhanggui.plist</vurl>
+        <vtime>2019-04-17 14:29:02</vtime>
+        <vtype>1</vtype>
+    </version>
+    
+    
+    <version>
+        <tableid>8</tableid>
+        <vname>1.0.2</vname>
+        <vtitle>Android娱加掌柜1.0.2发布(搭配娱加-V3.0.20190417及以上版本使用)</vtitle>
+        <vdesc>1)查询分析-营收报表，所有报表自定义时间查询新增时段选择
+            &lt;br/&gt;2)查询分析-营收报表-包台报表，新增统计开台数并新增按经营方式统计开台数
+            &lt;br/&gt;3)查询分析-营收报表，新增业绩报表
+            &lt;br/&gt;a)业绩报表支持切换查询销售经理、订位人、点单员业绩报表
+            &lt;br/&gt;b)业绩报表支持切换查询全部账单、商品账单和花单账单
+            &lt;br/&gt;c)业绩报表可查部门和人员业绩受特殊权限“业绩报表可查人员权限”控制
+            &lt;br/&gt;4)查询分析-营收分析-营业额分析/赠送分析/开台分析/预订分析修改
+            &lt;br/&gt;a)报表查询条件去掉“上周”，新增“今天”
+            &lt;br/&gt;b)报表查询“今天”和“本周”时，同时查询环比数据“昨天”和“上周”
+            &lt;br/&gt;c)后台-数据维护，新增“数据汇总时段”，掌柜营收分析今天的数据按配置时段汇总
+            &lt;br/&gt;5)登录新增分店列表，支持保存不同分店的网络配置
+        </vdesc>
+        <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/yj_zhanggui/1.0.2/barZhangGui.apk</vurl>
+        <vtime>2019-04-17 14:29:02</vtime>
+        <vtype>2</vtype>
+    </version>
+    
+    
+  
+        <version>
+          <tableid>7</tableid>
+          <vname>1.0.1</vname>
+          <vtitle>Android娱加掌柜1.0.1发布(搭配娱加酒吧-V3.0.20190124及以上版本使用)</vtitle>
+          <vdesc>1)优化营业汇总的查询效率
+   &lt;br/&gt;2)优化查询超时时间由8s改为120s
+          </vdesc>
+          <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/yj_zhanggui/1.0.1/barZhangGui.apk</vurl>
+          <vtime>2019-01-24 14:29:02</vtime>
+          <vtype>2</vtype>
+        </version>
+	
+        <version>
+          <tableid>6</tableid>
+          <vname>1.0.4</vname>
+          <vtitle>iOS娱加掌柜1.0.4发布(搭配娱加酒吧-V3.0.20190124及以上版本使用)</vtitle>
+          <vdesc>  1)优化营业汇总的查询效率
+   &lt;br/&gt;2)优化查询超时时间由8s改为120s
+          </vdesc>
+          <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/yj_zhanggui/1.0.4/yj_zhanggui.plist</vurl>
+          <vtime>2019-01-24 14:29:02</vtime>
+          <vtype>1</vtype>
+        </version>
+	
+	
+        <version>
+          <tableid>5</tableid>
+          <vname>1.0.3</vname>
+          <vtitle>iOS娱加掌柜1.0.3发布(搭配娱加酒吧-V3.0.20180928及以上版本使用)</vtitle>
+          <vdesc> 1)实时卡台界面卡台控件上新增显示“开台数”；查询分析界面左上角新增统计今日开台汇总
+   &lt;br/&gt;2)实时卡台界面使用中卡台新增赠送操作
+   &lt;br/&gt;3)实时卡台界面查询卡台消费明细，新增统计未结金额，且商品标记已结/未结
+          </vdesc>
+          <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/yj_zhanggui/1.0.3/yj_zhanggui.plist</vurl>
+          <vtime>2018-09-29 14:29:02</vtime>
+          <vtype>1</vtype>
+        </version>
+	
+	
+        <version>
+          <tableid>4</tableid>
+          <vname>1.0.2</vname>
+          <vtitle>iOS娱加掌柜1.0.2发布(搭配娱加YJ-V1.9.20170919使用)</vtitle>
+          <vdesc>1.服务器地址支持https访问
+          </vdesc>
+          <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/yj_zhanggui/1.0.2/yj_zhanggui.plist</vurl>
+          <vtime>2018-03-23 14:29:02</vtime>
+          <vtype>1</vtype>
+        </version>
+	
+	
+        <version>
+          <tableid>3</tableid>
+          <vname>1.0.1</vname>
+          <vtitle>iOS娱加掌柜1.0.1发布(搭配娱加YJ-V1.9.20170919使用)</vtitle>
+          <vdesc>1.服务器地址输入支持域名
+          </vdesc>
+          <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/yj_zhanggui/1.0.1/yj_zhanggui.plist</vurl>
+          <vtime>2017-11-06 14:29:02</vtime>
+          <vtype>1</vtype>
+        </version>
+	
+	
+  <version>
+    <tableid>1</tableid>
+    <vname>1.0</vname>
+    <vtitle>iOS娱加掌柜1.0发布(搭配娱加YJ-V1.9.20170919使用)</vtitle>
+    <vdesc>娱加移动掌柜系统是针对娱加酒吧经营场所独立设计的智能移动管理客户端软件，场所管理人员通过智能手机，即可便捷实现财务查询、待办授权、营收分析等功能，经营管理者可以便捷高效地观察场所运营并进行远程管理活动，助力场所实现移动管理，简化业务管理流程，大幅提升运营管理效率。
+&lt;br/&gt;
+&lt;br/&gt;【基本功能】
+&lt;br/&gt;1、支持移动管理
+&lt;br/&gt;2、支持实时包厢查询
+&lt;br/&gt;3、支持营收报表查询
+&lt;br/&gt;4、支持营收分析
+&lt;br/&gt;【亮点功能】
+&lt;br/&gt;1、支持消息推送
+&lt;br/&gt;2、支持打折授权、赠送授权、免单授权管理
+    </vdesc>
+    <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/yj_zhanggui/1.0.0/yj_zhanggui.plist</vurl>
+    <vtime>2017-09-20 14:29:02</vtime>
+    <vtype>1</vtype>
+  </version>
+  
+  <version>
+    <tableid>2</tableid>
+    <vname>1.0</vname>
+    <vtitle>Android娱加掌柜1.0发布(搭配娱加YJ-V1.9.20170919使用)</vtitle>
+    <vdesc>
+娱加移动掌柜系统是针对娱加酒吧经营场所独立设计的智能移动管理客户端软件，场所管理人员通过智能手机，即可便捷实现财务查询、待办授权、营收分析等功能，经营管理者可以便捷高效地观察场所运营并进行远程管理活动，助力场所实现移动管理，简化业务管理流程，大幅提升运营管理效率。
+&lt;br/&gt;
+&lt;br/&gt;【基本功能】
+&lt;br/&gt;1、支持移动管理
+&lt;br/&gt;2、支持实时包厢查询
+&lt;br/&gt;3、支持营收报表查询
+&lt;br/&gt;4、支持营收分析
+&lt;br/&gt;【亮点功能】
+&lt;br/&gt;1、支持消息推送
+&lt;br/&gt;2、支持打折授权、赠送授权、免单授权管理
+    </vdesc>
+    <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/yj_zhanggui/1.0.0/barZhangGui.apk</vurl>
+    <vtime>2017-09-20 14:29:02</vtime>
+    <vtype>2</vtype>
+  </version>
+</Response>

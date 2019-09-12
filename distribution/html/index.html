@@ -1,0 +1,173 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="icon" href="../../common/logo.png">
+
+    <title>App在线安装</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../common/css/bootstrap.min.css" rel="stylesheet" >
+
+
+    <link href="../../common/css/sb-admin-2.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="../../common/css/login.css" rel="stylesheet" >
+	
+    <link href="../../common/css/timeline.css" rel="stylesheet" >
+
+    <link href="../../common/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <script type="text/javascript" src="../../common/js/common.js"></script>
+
+
+  </head>
+
+  <body>
+
+    <div class="container" align="center">
+	<form class="form-signin" role="form" method="post">
+		
+		<img id="logoimg" style="margin-top:30px;margin-bottom: 30px" src="../../common/tylogo.png" />
+        <a  id="topbtn" class='btn btn-lg  btn-block' href=''>iOS安装版本</a>
+
+        <script type="text/javascript">
+         var vtype_que = GetQueryString("vtype");
+         var stype = GetQueryString("stype");
+         var topbtn = document.getElementById('topbtn');
+         var logoimg = document.getElementById('logoimg');
+
+         if(vtype_que == 1){
+            topbtn.innerHTML = "<i class='fa fa-apple fa-fw'></i>iOS安装版本";
+             if(stype==1){
+                 topbtn.href = "itms-services://?action=download-manifest&url=https://yj.evideocloud.com.cn/app/distribution/app/ios/ty_order/ty_order.plist";
+             }
+             if(stype==2){
+                 topbtn.href = "itms-services://?action=download-manifest&url=https://yj.evideocloud.com.cn/app/distribution/app/ios/ty_zhanggui/ty_zhanggui.plist";
+                 logoimg.src= "../../common/zglogo.png";
+             }
+             if(stype==3){
+                 topbtn.href = "itms-services://?action=download-manifest&url=https://yj.evideocloud.com.cn/app/distribution/app/ios/yj_order/yj_order.plist";
+                 logoimg.src= "../../common/yjlogo.png";
+             }
+             if(stype==4){
+                 topbtn.href = "itms-services://?action=download-manifest&url=https://yj.evideocloud.com.cn/app/distribution/app/ios/ty_caipu/ty_caipu.plist";
+                 logoimg.src= "../../common/tycplogo.png";
+                 topbtn.innerHTML = "<i class='fa fa-apple fa-fw'></i>iOS安装版本";
+             }
+             if(stype==5){
+                 topbtn.href = "itms-services://?action=download-manifest&url=https://yj.evideocloud.com.cn/app/distribution/app/ios/yj_zhanggui/yj_zhanggui.plist";
+                 logoimg.src= "../../common/yjzglogo.png";
+             }
+             if(stype==6){
+                 topbtn.href = "itms-services://?action=download-manifest&url=https://yj.evideocloud.com.cn/app/distribution/app/ios/ty_ziyuan/ty_ziyuan.plist";
+                 logoimg.src= "../../common/tyzylogo.png";
+             }
+             if(stype==7){
+                 topbtn.href = "itms-services://?action=download-manifest&url=https://yj.evideocloud.com.cn/app/distribution/app/ios/yj_ziyuan/yj_ziyuan.plist";
+                 logoimg.src= "../../common/yjzylogo.png";
+             }
+            topbtn.className += ' btn-primary ';
+         }
+         if(vtype_que == 2){
+            topbtn.innerHTML = "<i class='fa fa-android fa-fw'></i>Android安装版本";
+             if(stype==1){
+                  topbtn.href = "https://yj.evideocloud.com.cn/app/distribution/app/android/ty_order/newKTVOrder.apk";
+             }
+             if(stype==2){
+                  topbtn.href = "https://yj.evideocloud.com.cn/app/distribution/app/android/ty_zhanggui/zhangGui.apk";
+                  logoimg.src= "../../common/zglogo.png";
+             }
+             if(stype==3){
+                  topbtn.href = "https://yj.evideocloud.com.cn/app/distribution/app/android/yj_order/barKTVOrder.apk";
+                  logoimg.src= "../../common/yjlogo.png";
+             }
+             if(stype==5){
+                  topbtn.href = "https://yj.evideocloud.com.cn/app/distribution/app/android/yj_zhanggui/barZhangGui.apk";
+                  logoimg.src= "../../common/yjzglogo.png";
+             }
+             if(stype==7){
+                  topbtn.href = "https://yj.evideocloud.com.cn/app/distribution/app/android/yj_ziyuan/yj_ziyuan.apk";
+                  logoimg.src= "../../common/yjzylogo.png";
+             }
+            topbtn.className += ' btn-info btn-outline'; // 注意前面加空格，防止两个属性挨一起
+         }
+        </script>
+
+	</form>
+
+    </div> <!-- /container -->
+
+<div class="col-lg-8"  style="padding-left: 0px;padding-right: 0px;">
+<div class="panel panel-success">
+    <div class="panel-heading">
+        <i class="fa fa-clock-o fa-fw"></i>历史版本
+    </div>
+    <!-- /.panel-heading -->
+    <div class="panel-body" style="padding-left: 15px;">
+        <ul class="timeline" id="versionlist">
+
+            <script type="text/javascript">
+                 var filestr = "../../common/config/";
+                 if(stype==1){
+                     filestr +="ty_order_config.xml";
+                 }
+                 if(stype==2){
+                     filestr +="ty_zhanggui_config.xml";
+                 }
+                 if(stype==3){
+                     filestr +="yj_order_config.xml";
+                 }
+                 if(stype==4){
+                     filestr +="ty_caipu_config.xml";
+                 }
+                 if(stype==5){
+                     filestr +="yj_zhanggui_config.xml";
+                 }
+                 if(stype==6){
+                     filestr +="ty_ziyuan_config.xml";
+                 }
+                 if(stype==7){
+                     filestr +="yj_ziyuan_config.xml";
+                 }
+                 var xmldoc=LoadXMLFile(filestr);
+
+                 var first=xmldoc.getElementsByTagName("version");
+                 for (var i = 0; i < first.length; i++) {
+                     var vtype = first[i].getElementsByTagName("vtype")[0].firstChild.nodeValue;
+                     if (vtype != vtype_que) {
+                         continue;
+                     }
+                     var vname = first[i].getElementsByTagName("vname")[0].firstChild.nodeValue;
+                     var vtitle = first[i].getElementsByTagName("vtitle")[0].firstChild.nodeValue;
+                     var vdesc = first[i].getElementsByTagName("vdesc")[0].firstChild.nodeValue;
+                     var vurl = first[i].getElementsByTagName("vurl")[0].firstChild.nodeValue;
+                     var vtime = first[i].getElementsByTagName("vtime")[0].firstChild.nodeValue;
+                     var vtype = first[i].getElementsByTagName("vtype")[0].firstChild.nodeValue;
+                     document.getElementById("versionlist").innerHTML += "<li><div class='timeline-badge info'></div>" +
+                             "<div class='timeline-panel'><div class='timeline-heading'><h4 class='timeline-title'><a href="+vurl+">"+vtitle+"</a></h4>" +
+                             "<p><small class='text-muted'><i class='fa fa-clock-o'></i> "+vtime+"</small></p></div>" +
+                             "<div class=‘timeline-body’><p>"+vdesc+"</p>" +
+                             "</div></div></li>";
+                 }
+
+            </script>
+
+        </ul>
+    </div>
+    <!-- /.panel-body -->
+</div>
+</div>
+
+
+
+
+  </body>
+</html>

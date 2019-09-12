@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Response>
+  <version>
+    <tableid>1</tableid>
+    <vname>1.0</vname>
+    <vtitle>点单测试1.0发布</vtitle>
+    <vdesc>IOS 点单</vdesc>
+    <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/test/app/ios/ty_order/ty_order.plist</vurl>
+    <vtime>2017-03-20 14:29:02</vtime>
+    <vtype>1</vtype>
+  </version>
+  <version>
+    <tableid>2</tableid>
+    <vname>1.0</vname>
+    <vtitle>点单测试1.0发布</vtitle>
+    <vdesc>android 点单</vdesc>
+    <vurl>https://yj.evideocloud.com.cn/app/test/app/android/ty_order/newKTVOrder.apk</vurl>
+    <vtime>2017-03-20 14:29:02</vtime>
+    <vtype>2</vtype>
+  </version>
+</Response>

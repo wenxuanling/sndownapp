@@ -1,0 +1,209 @@
+$def with(content)
+$ i_uid =cookie().get('username')
+$ i_cook =cookie().get('username')
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
+    <title>$content.title</title>
+    $if content.cssfiles:
+        $for f in content.cssfiles.split():
+            <link rel="stylesheet" href="$f" type="text/css" media="screen" charset="utf-8"/>
+    <!-- Bootstrap Core CSS -->
+    <link href="/static/html/dist/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- MetisMenu CSS -->
+    <link href="/static/html/dist/sbadmin/css/metisMenu.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="/static/html/dist/sbadmin/css/sb-admin-2.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="/static/html/dist/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <link href="/static/html/e/templates/default/common.css" type="text/css" rel="stylesheet" />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+
+
+    <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?60b49cd3e1af21583c0029a4bc769d27";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+
+
+
+</head>
+
+<body>
+
+<div id="wrapper">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+
+        <!-- /.navbar-header -->
+
+
+        <ul class="nav navbar-top-links navbar-left">
+
+            <li class="dropdown">
+                <a class="dropdown-toggle open"  href="/">
+                    主页
+                </a>
+            </li>
+
+        </ul>
+
+
+        <ul class="nav navbar-top-links navbar-right">
+
+            $if i_uid:
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="">
+                        <i class="fa fa-user fa-fw"></i>$i_cook<i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-user">
+                        <li ><a id="usernamespan" href="" rel="nofollow"  >$i_cook</a></li>
+                        <li class="divider"></li>
+                        <li ><a href="/outlogin"  rel="nofollow">退出登录</a></li>
+                    </ul>
+                    <!-- /.dropdown-user -->
+                </li>
+
+
+            $else :
+                <li class="dropdown">
+                    <a class="dropdown-toggle" href="" data-toggle="modal" data-target="#showloginModal">
+                        <i class="fa fa-user fa-fw"></i>登录注册
+                    </a>
+                    <!-- /.dropdown-user -->
+                </li>
+
+            <!-- /.dropdown -->
+        </ul>
+        <!-- /.navbar-top-links -->
+        <!-- /.left  toolbar   -->
+        $if content.isshowleft:
+        <div class="navbar-default sidebar" role="navigation">
+            <div class="sidebar-nav navbar-collapse">
+                <ul class="nav" id="side-menu">
+
+
+                    <li class="active">
+                        <a href="#"><i class="fa fa-files-o fa-fw"></i>娱加<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li  ><a href="/version?action=select&opcode=9" id="meutab9">移动端版本信息</a></li>
+                            <li  ><a href="/pcversion?action=select&opcode=8" id="meutab8">PC端版本信息</a></li>
+                        </ul>
+                        <!-- /.nav-second-level -->
+                    </li>
+
+
+                    <li class="active">
+                        <a href="#"><i class="fa fa-files-o fa-fw"></i>通娱<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li  ><a href="/ty_order_version?action=select&opcode=1" id="meutab1">移动点单版本信息</a></li>
+                            <li  ><a href="/ty_zhanggui_version?action=select&opcode=2" id="meutab2">移动掌柜版本信息</a></li>
+                            <li  ><a href="/ty_caipu_version?action=select&opcode=3" id="meutab3">电子菜谱版本信息</a></li>
+                        </ul>
+                        <!-- /.nav-second-level -->
+                    </li>
+
+                </ul>
+            </div>
+
+
+
+            <!-- /.sidebar-collapse -->
+        </div>
+        <!-- /.navbar-static-side -->
+    </nav>
+    <div id="page-wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <br/><br/><br/>
+                <div class="col-lg-12">
+                    $:content
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container-fluid -->
+    </div>
+
+</div>
+
+
+<br/><br/><br/>
+
+
+
+
+
+<!-- /#footer -->
+
+
+<div class="container">
+
+    <footer>
+
+
+
+        <!-- /.col-lg-12 -->
+
+    </footer>
+
+</div>
+
+<!-- /#wrapper -->
+
+<!-- jQuery -->
+<script src="/static/html/dist/jquery/jquery.min.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/static/html/dist/bootstrap/js/bootstrap.min.js"></script>
+
+<!-- Metis Menu Plugin JavaScript -->
+<script src="/static/html/dist/sbadmin/js/metisMenu.min.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/static/html/dist/sbadmin/js/sb-admin-2.js"></script>
+
+<script type="text/javascript" src="/static/html/js/common_js.js" charset="gb2312"></script>
+
+
+</body>
+
+</html>

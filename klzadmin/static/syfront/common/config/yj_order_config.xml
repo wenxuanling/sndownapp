@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Response>
+  <version>
+    <tableid>1</tableid>
+    <vname>1.0</vname>
+    <vtitle>iOS娱加点单1.0发布</vtitle>
+    <vdesc>
+1、新增卡台扫码点单&lt;br&gt;
+2、UI风格改造（改成酒吧风格）&lt;br&gt;
+3、在个人信息下新增（待办和未读）功能&lt;br&gt;
+    </vdesc>
+    <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/yj_order/1.0.0/yj_order.plist</vurl>
+    <vtime>2017-04-20 14:29:02</vtime>
+    <vtype>1</vtype>
+  </version>
+  <version>
+    <tableid>2</tableid>
+    <vname>1.0</vname>
+    <vtitle>Android娱加点单1.0发布</vtitle>
+    <vdesc>
+1、新增卡台扫码点单&lt;br&gt;
+2、UI风格改造（改成酒吧风格）&lt;br&gt;
+3、在个人信息下新增（待办和未读）功能&lt;br&gt;
+    </vdesc>
+    <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/yj_order/1.0.0/barKTVOrder.apk</vurl>
+    <vtime>2017-04-20 14:29:02</vtime>
+    <vtype>2</vtype>
+  </version>
+</Response>

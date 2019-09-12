@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<Response>
+	
+        <version>
+          <tableid>2</tableid>
+          <vname>1.0.1</vname>
+          <vtitle>iOS通娱资源V1.0.1发布(搭配通娱A-V3.0.20190830及以上版本使用)</vtitle>
+          <vdesc>  
+	     1）“带客”包厢的颜色改为粉色
+		</vdesc> <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/ty_ziyuan/1.0.1/ty_ziyuan.plist</vurl>
+          <vtime>2019-09-02 13:51:12</vtime>
+          <vtype>1</vtype>
+        </version>
+	
+        <version>
+          <tableid>1</tableid>
+          <vname>1.0.0</vname>
+          <vtitle>iOS通娱资源V1.0.0发布(搭配通娱2016-V3.0.20180904及以上版本使用)</vtitle>
+          <vdesc>  
+	  
+		  &lt;br/&gt;1）资源-信息设置-资源等级设置，增加“预签到抵押金额”设置项 &lt;br/&gt;2）资源-查询统计，增加“资源预约查询”报表，用于查看资源的预签到和预约详细记录；在后台菜单权限有对应权限控制
+		     &lt;br/&gt;3）后台-人员设置-菜单权限，增加移动KTV资源权限：
+		        &lt;br/&gt;a、预约资源：可以查看自己组下的资源并预约
+		        &lt;br/&gt;b、查看所有资源：可以查看所有资源，不可预约
+		        &lt;br/&gt;c、预订包厢：+预订业务权限，才能预订包厢；可以看到自己预订包厢的消费情况
+		        &lt;br/&gt;d、查看所有包厢：可以查看所有包厢的消费情况
+		     &lt;br/&gt;4）资源在app上设置好服务器IP和端口后，无需任何权限即可登录app，
+		        &lt;br/&gt;登录后可以进行预签到操作，并查询本人的预签到记录、押金情况、预约记录、签到记录
+		     &lt;br/&gt;5）人员在app上设置好服务器IP、端口和设备名称后，需注册并在后台启用设备后，才可以根据相应权限登录app，
+		        &lt;br/&gt;登录后可以预订包厢、查询包厢消费情况、检索资源、预约资源、取消预约资源、查询预订包厢记录、查询预约资源记录
+		     &lt;br/&gt;6）预签到和预约规则
+		        &lt;br/&gt; a、预签到：当前时间&lt;考勤开始时间，可以预签到，并扣除相应资源等级的预签到抵押金额
+		        &lt;br/&gt; b、取消预签到：预签到后，未被预约的，可以取消预签到，并返还抵押金额
+		        &lt;br/&gt; c、签到返还押金：已预签到资源，在考勤时间段内到场所刷卡，可以返还抵押金额
+		        &lt;br/&gt; d、预约：已预签到的资源，预约时间&lt;考勤开始时间，可以被预约
+		        &lt;br/&gt; e、取消预约：已被预约资源，可以在我-预约资源记录-点击-取消预约
+		        &lt;br/&gt; f、押金变动详细信息，可以在资源系统的台票变动明细查询内查看
+		</vdesc> <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/ty_ziyuan/1.0.0/ty_ziyuan.plist</vurl>
+          <vtime>2018-09-04 15:11:02</vtime>
+          <vtype>1</vtype>
+        </version>
+	
+	
+  
+</Response>

@@ -1,0 +1,114 @@
+$def with (soucetable,opcode)
+
+$var isshowleft:1
+$var cssfiles:
+$var title: 平台
+
+$var opcode:opcode
+
+<script type="text/javascript">
+    function addTR()
+    {
+        document.getElementById("doc2").innerHTML += document.getElementById("doc1").innerHTML;
+    }
+</script>
+
+<form role="form" method="post">
+
+    <div class="form-group">
+        <label>编号</label>
+        <p class="form-control-static">$soucetable.tableid</p>
+        <input class="form-control" type="hidden" value="$soucetable.tableid" name="tableid">
+    </div>
+
+     <div class="form-group">
+        <label>版本号</label>
+        <input class="form-control" value="$soucetable.vname" name="vname">
+    </div>
+
+     <div class="form-group">
+        <label>版本标题</label>
+        <input class="form-control" value="$soucetable.vtitle" name="vtitle">
+    </div>
+
+    <div class="form-group">
+        <label>版本更新详情</label>
+        <textarea class="form-control" rows="15" name="vdesc">$soucetable.vdesc</textarea>
+    </div>
+
+
+     <div class="form-group">
+        <label>版本下载地址</label>
+         <button type="button" class="btn btn-default" onclick="addTR()">添加一栏</button>
+         <table class="table">
+             <thead>
+             <tr>
+                 <th>下载地址标题</th>
+                 <th>下载地址链接</th>
+                 <th>下载地址密码</th>
+             </tr>
+             </thead>
+             <tbody id="doc2">
+
+             $for t in soucetable.templist:
+                <tr>
+                     <td><input class="form-control" value="$t['str1']" name="list1"></td>
+                     <td><input class="form-control" value="$t['str2']" name="list2"></td>
+                     <td><input class="form-control" value="$t['str3']" name="list3"></td>
+                </tr>
+
+
+             <tr id="doc1" style="display: none">
+                 <td><input class="form-control" value="" name="list1"></td>
+                 <td><input class="form-control" value="" name="list2"></td>
+                 <td><input class="form-control" value="" name="list3"></td>
+             </tr>
+
+
+             </tbody>
+         </table>
+
+    </div>
+
+    <div class="form-group">
+        <label>版本发布时间</label>
+        <input class="form-control" value="$soucetable.vtime" name="vtime">
+    </div>
+
+    <input class="form-control" type="hidden" value="3" name="vtype">
+
+     <div class="form-group">
+        <label>是否显示</label>
+        <select id="isshow" class="form-control" name="isshow">
+            $if soucetable.isshow==0:
+                <option value ="0" selected="true">是</option>
+            $else:
+                <option value ="0" >是</option>
+            $if soucetable.isshow==-1:
+                <option value ="-1" selected="true">否</option>
+            $else:
+                <option value ="-1">否</option>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-default">修改</button>
+    <!--<button type="reset" class="btn btn-default">Reset Button</button>-->
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+</form>
+
+
+<script>
+    var opcode=$opcode;
+
+</script>
+
+
+<script type="text/javascript" src="static/html/js/index_js.js"  charset="gb2312"></script>
+
+
+        
