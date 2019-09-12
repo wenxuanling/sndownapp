@@ -7,7 +7,7 @@
           <vtitle>iOS通娱资源V1.0.1发布(搭配通娱A-V3.0.20190830及以上版本使用)</vtitle>
           <vdesc>  
 	     1）“带客”包厢的颜色改为粉色
-		</vdesc> <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/ty_ziyuan/1.0.1/ty_ziyuan.plist</vurl>
+		</vdesc> <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp/distribution/app/ios/ty_ziyuan/1.0.1/ty_ziyuan.plist</vurl>
           <vtime>2019-09-02 13:51:12</vtime>
           <vtype>1</vtype>
         </version>
@@ -35,7 +35,7 @@
 		        &lt;br/&gt; d、预约：已预签到的资源，预约时间&lt;考勤开始时间，可以被预约
 		        &lt;br/&gt; e、取消预约：已被预约资源，可以在我-预约资源记录-点击-取消预约
 		        &lt;br/&gt; f、押金变动详细信息，可以在资源系统的台票变动明细查询内查看
-		</vdesc> <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/ty_ziyuan/1.0.0/ty_ziyuan.plist</vurl>
+		</vdesc> <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp/distribution/app/ios/ty_ziyuan/1.0.0/ty_ziyuan.plist</vurl>
           <vtime>2018-09-04 15:11:02</vtime>
           <vtype>1</vtype>
         </version>

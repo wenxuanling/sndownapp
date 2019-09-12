@@ -8,7 +8,7 @@
           <vdesc>
 		 1）“带客”包厢的颜色改为粉色
       	  </vdesc>
-          <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/ty_zhanggui/2.1.2/ty_zhanggui.plist</vurl>
+          <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp/distribution/app/ios/ty_zhanggui/2.1.2/ty_zhanggui.plist</vurl>
           <vtime>2019-09-02 13:55:27</vtime>
           <vtype>1</vtype>
         </version>
@@ -21,7 +21,7 @@
           <vdesc>
 		   1）“带客”包厢的颜色改为粉色
 	  </vdesc>
-          <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/ty_zhanggui/2.0.4/zhangGui.apk</vurl>
+          <vurl>https://wenxuanling.github.io/sndownapp/distribution/app/android/ty_zhanggui/2.0.4/zhangGui.apk</vurl>
           <vtime>2019-09-02 13:55:27</vtime>
           <vtype>2</vtype>
         </version>
@@ -41,7 +41,7 @@
 		    &lt;br/&gt;7）仅使用状态包厢支持打折
 		&lt;br/&gt;8）修复参数“商品点单自动继承包厢最后一次会员卡信息”为“否”时，提示“当前商品价格类型已修改，请刷新房态”，无法点单/赠送的问题
 	  </vdesc>
-          <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/ty_zhanggui/2.0.3/zhangGui.apk</vurl>
+          <vurl>https://wenxuanling.github.io/sndownapp/distribution/app/android/ty_zhanggui/2.0.3/zhangGui.apk</vurl>
           <vtime>2018-03-26 14:25:57</vtime>
           <vtype>2</vtype>
         </version>
@@ -59,7 +59,7 @@
 		     &lt;br/&gt;2）查询分析左上角增加今日统计，统计今日开房数、已结商品、未结商品、商品总额
 		     &lt;br/&gt;3）营收报表增加预订人报表、赠送人报表
 	  </vdesc>
-          <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/ty_zhanggui/2.0.2/zhangGui.apk</vurl>
+          <vurl>https://wenxuanling.github.io/sndownapp/distribution/app/android/ty_zhanggui/2.0.2/zhangGui.apk</vurl>
           <vtime>2018-02-08 17:25:57</vtime>
           <vtype>2</vtype>
         </version>
@@ -82,7 +82,7 @@
 		  &lt;br/&gt;
 		  &lt;br/&gt;优化包厢列表界面的下拉框，增大到刚好显示最后一栏一半文字，让用户知道还有其它房态，可以下拉
       	  </vdesc>
-          <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/ty_zhanggui/2.1.1/ty_zhanggui.plist</vurl>
+          <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp/distribution/app/ios/ty_zhanggui/2.1.1/ty_zhanggui.plist</vurl>
           <vtime>2018-01-24 09:29:02</vtime>
           <vtype>1</vtype>
         </version>
@@ -94,7 +94,7 @@
           <vdesc>
       	    1、包厢增加预订、打折、赠送功能，并增加对应的菜单权限控制
       	  </vdesc>
-          <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/ty_zhanggui/2.1.0/ty_zhanggui.plist</vurl>
+          <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp/distribution/app/ios/ty_zhanggui/2.1.0/ty_zhanggui.plist</vurl>
           <vtime>2017-11-07 09:29:02</vtime>
           <vtype>1</vtype>
         </version>
@@ -106,7 +106,7 @@
     <vdesc>
 1、支持域名注册，优化域名输入
 </vdesc>
-    <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/ty_zhanggui/2.0.3/ty_zhanggui.plist</vurl>
+    <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp/distribution/app/ios/ty_zhanggui/2.0.3/ty_zhanggui.plist</vurl>
     <vtime>2017-10-16 14:29:02</vtime>
     <vtype>1</vtype>
   </version>
@@ -122,7 +122,7 @@
    &lt;br/&gt;3）IOS掌柜所在的手机，将收到相应的推送消息，并根据手机设置有对应的响铃/震动提醒
 &lt;br/&gt;2、支持查询多分店数据
 </vdesc>
-    <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/ty_zhanggui/2.0.2/ty_zhanggui.plist</vurl>
+    <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp/distribution/app/ios/ty_zhanggui/2.0.2/ty_zhanggui.plist</vurl>
     <vtime>2017-10-12 14:29:02</vtime>
     <vtype>1</vtype>
   </version>
@@ -133,7 +133,7 @@
     <vname>2.0.1</vname>
     <vtitle>Android通娱掌柜2.0.1发布(搭配通娱2.9使用)</vtitle>
     <vdesc> 1.修复注册参数错误bug</vdesc>
-    <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/ty_zhanggui/2.0.1/zhangGui.apk</vurl>
+    <vurl>https://wenxuanling.github.io/sndownapp/distribution/app/android/ty_zhanggui/2.0.1/zhangGui.apk</vurl>
     <vtime>2017-05-08 14:29:02</vtime>
     <vtype>2</vtype>
   </version>
@@ -142,7 +142,7 @@
     <vname>2.0.1</vname>
     <vtitle>iOS通娱掌柜2.0.1发布(搭配通娱2.9使用)</vtitle>
     <vdesc>1.修复注册参数错误bug</vdesc>
-    <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/ty_zhanggui/2.0.1/ty_zhanggui.plist</vurl>
+    <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp/distribution/app/ios/ty_zhanggui/2.0.1/ty_zhanggui.plist</vurl>
     <vtime>2017-05-08 14:29:02</vtime>
     <vtype>1</vtype>
   </version>
@@ -152,7 +152,7 @@
     <vtitle>Android通娱掌柜2.0.0发布(搭配通娱2.8使用)</vtitle>
     <vdesc>1.服务器地址支持输入域名
 &lt;br/&gt;2.优化调整部分细节和修复bug</vdesc>
-    <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/ty_zhanggui/2.0.0/zhangGui.apk</vurl>
+    <vurl>https://wenxuanling.github.io/sndownapp/distribution/app/android/ty_zhanggui/2.0.0/zhangGui.apk</vurl>
     <vtime>2017-03-20 14:35:57</vtime>
     <vtype>2</vtype>
   </version>
@@ -163,7 +163,7 @@
     <vdesc>1.服务器地址支持输入域名
 &lt;br/&gt;2.优化调整部分细节和修复bug
 &lt;br/&gt;</vdesc>
-    <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/ty_zhanggui/2.0.0/ty_zhanggui.plist</vurl>
+    <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp/distribution/app/ios/ty_zhanggui/2.0.0/ty_zhanggui.plist</vurl>
     <vtime>2017-03-20 14:29:02</vtime>
     <vtype>1</vtype>
   </version>

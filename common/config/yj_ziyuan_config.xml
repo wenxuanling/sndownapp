@@ -14,7 +14,7 @@
 		     &lt;br/&gt;6)资源登录支持接收本人花单点单提醒和本人资源业绩报表、展示本人二维码
 		     &lt;br/&gt;7)资源组长登录支持接收本组成员花单点单提醒和本组成员资源业绩报表、支持新增修改资源，并支持预订卡台和查询使用卡台
 		     &lt;br/&gt;8)其余员工登录按权限设置支持查看关注资源人花单点单提醒和资源业绩报表、修改资源
-		</vdesc> <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/yj_ziyuan/1.0.0/yj_ziyuan.apk</vurl>
+		</vdesc> <vurl>https://wenxuanling.github.io/sndownapp/distribution/app/android/yj_ziyuan/1.0.0/yj_ziyuan.apk</vurl>
           <vtime>2019-07-09 18:11:02</vtime>
           <vtype>2</vtype>
         </version>
@@ -32,7 +32,7 @@
 		     &lt;br/&gt;6)资源登录支持接收本人花单点单提醒和本人资源业绩报表、展示本人二维码
 		     &lt;br/&gt;7)资源组长登录支持接收本组成员花单点单提醒和本组成员资源业绩报表、支持新增修改资源，并支持预订卡台和查询使用卡台
 		     &lt;br/&gt;8)其余员工登录按权限设置支持查看关注资源人花单点单提醒和资源业绩报表、修改资源
-		</vdesc> <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/yj_ziyuan/1.0.0/yj_ziyuan.plist</vurl>
+		</vdesc> <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp/distribution/app/ios/yj_ziyuan/1.0.0/yj_ziyuan.plist</vurl>
           <vtime>2019-07-09 18:11:02</vtime>
           <vtype>1</vtype>
         </version>

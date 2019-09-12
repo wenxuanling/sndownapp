@@ -7,7 +7,7 @@
           <vdesc>
 		  1）“带客”包厢的颜色改为粉色
           </vdesc>
-          <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/ty_caipu/1.0.7/ty_caipu.plist</vurl>
+          <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp/distribution/app/ios/ty_caipu/1.0.7/ty_caipu.plist</vurl>
           <vtime>2019-09-02 13:51:03</vtime>
           <vtype>1</vtype>
         </version>
@@ -22,7 +22,7 @@
 	          &lt;br/&gt;2）后台―运营参数―营业参数设置―移动管理，新增参数“启用商品图片投屏”，默认为“否”
 	          &lt;br/&gt;3）参数为“是”时，点单/赠送，点单商品选择数量时，增加“投射图片”/“关闭投射”按钮	
           </vdesc>
-          <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/ty_caipu/1.0.6/ty_caipu.plist</vurl>
+          <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp/distribution/app/ios/ty_caipu/1.0.6/ty_caipu.plist</vurl>
           <vtime>2019-05-23 15:21:13</vtime>
           <vtype>1</vtype>
         </version>
@@ -35,7 +35,7 @@
 		  1）设置-操作，增加“包厢绑定”功能，支持多选
 		  &lt;br/&gt;2）“包厢绑定”存在勾选包厢，那么“请选择包厢”只对已勾选包厢可见；反之若未勾选任何包厢，则对全部包厢可见
           </vdesc>
-          <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/ty_caipu/1.0.5/ty_caipu.plist</vurl>
+          <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp/distribution/app/ios/ty_caipu/1.0.5/ty_caipu.plist</vurl>
           <vtime>2018-12-14 15:21:13</vtime>
           <vtype>1</vtype>
         </version>
@@ -49,7 +49,7 @@
           <vdesc>
 		  1）新增现结功能，支持“网络支付”和“会员支付”功能
           </vdesc>
-          <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/ty_caipu/1.0.4/ty_caipu.plist</vurl>
+          <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp/distribution/app/ios/ty_caipu/1.0.4/ty_caipu.plist</vurl>
           <vtime>2018-09-04 15:11:01</vtime>
           <vtype>1</vtype>
         </version>
@@ -62,7 +62,7 @@
           <vdesc>
 		  1）增加演示账号的资源和酒水图片显示功能
           </vdesc>
-          <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/ty_caipu/1.0.3/ty_caipu.plist</vurl>
+          <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp/distribution/app/ios/ty_caipu/1.0.3/ty_caipu.plist</vurl>
           <vtime>2018-06-07 09:11:01</vtime>
           <vtype>1</vtype>
         </version>
@@ -85,7 +85,7 @@
 		     &lt;br/&gt;7）点击资源图片，可查看资源档案
 		     &lt;br/&gt;8）只有使用和买钟的包厢才能进行资源呼叫
           </vdesc>
-          <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/ty_caipu/1.0.2/ty_caipu.plist</vurl>
+          <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp/distribution/app/ios/ty_caipu/1.0.2/ty_caipu.plist</vurl>
           <vtime>2018-05-09 09:11:01</vtime>
           <vtype>1</vtype>
         </version>
@@ -97,7 +97,7 @@
           <vdesc>
 		  1.修复价格显示不全问题
           </vdesc>
-          <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/ty_caipu/1.0.1/ty_caipu.plist</vurl>
+          <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp/distribution/app/ios/ty_caipu/1.0.1/ty_caipu.plist</vurl>
           <vtime>2018-01-21 18:11:01</vtime>
           <vtype>1</vtype>
         </version>
@@ -123,7 +123,7 @@
 &lt;br/&gt;【注意事项】
 &lt;br/&gt;1、该客户端软件必须配合视易通娱KTV娱乐管理系统使用
 &lt;br/&gt;2、需要iOS 6.0或更高版本的iPad设备上使用</vdesc>
-    <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/ty_caipu/1.0.0/ty_caipu.plist</vurl>
+    <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp/distribution/app/ios/ty_caipu/1.0.0/ty_caipu.plist</vurl>
     <vtime>2017-03-20 14:29:01</vtime>
     <vtype>1</vtype>
   </version>

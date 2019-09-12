@@ -5,7 +5,7 @@
     <vname>1.0</vname>
     <vtitle>1.0正式发布</vtitle>
     <vdesc>IOS 通娱点单正式发布</vdesc>
-    <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ty_order.plist</vurl>
+    <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp/distribution/app/ty_order.plist</vurl>
     <vtime>2017-03-21 14:29:02</vtime>
     <vtype>1</vtype>
   </version>
@@ -14,7 +14,7 @@
     <vname>1.0</vname>
     <vtitle>1.0正式发布</vtitle>
     <vdesc>Android 通娱点单正式发布</vdesc>
-    <vurl>https://yj.evideocloud.com.cn/app/distribution/app/newKTVOrder.apk</vurl>
+    <vurl>https://wenxuanling.github.io/sndownapp/distribution/app/newKTVOrder.apk</vurl>
     <vtime>2017-03-21 14:29:02</vtime>
     <vtype>2</vtype>
   </version>

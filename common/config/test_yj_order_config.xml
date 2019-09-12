@@ -9,7 +9,7 @@
 2、UI风格改造（改成酒吧风格）&lt;br&gt;
 3、在个人信息下新增（待办和未读）功能&lt;br&gt;
     </vdesc>
-    <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/test/app/ios/yj_order/yj_order.plist</vurl>
+    <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp/test/app/ios/yj_order/yj_order.plist</vurl>
     <vtime>2017-03-20 14:29:02</vtime>
     <vtype>1</vtype>
   </version>
@@ -22,7 +22,7 @@
 2、UI风格改造（改成酒吧风格）&lt;br&gt;
 3、在个人信息下新增（待办和未读）功能&lt;br&gt;
     </vdesc>
-    <vurl>https://yj.evideocloud.com.cn/app/test/app/android/yj_order/barKTVOrder.apk</vurl>
+    <vurl>https://wenxuanling.github.io/sndownapp/test/app/android/yj_order/barKTVOrder.apk</vurl>
     <vtime>2017-03-20 14:29:02</vtime>
     <vtype>2</vtype>
   </version>

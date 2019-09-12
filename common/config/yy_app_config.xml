@@ -8,7 +8,7 @@
           <vdesc>   
 		  1）工作-现场管理，新增“退单查询”报表
 		    &lt;br/&gt;  a、后台-人员设置-菜单权限，赢娱移动掌柜新增对应菜单权限控制
-	  </vdesc> <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/yy_juhe/1.0.5/yy_juhe.plist</vurl>
+	  </vdesc> <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp/distribution/app/ios/yy_juhe/1.0.5/yy_juhe.plist</vurl>
           <vtime>2019-08-27 15:11:02</vtime>
           <vtype>1</vtype>
         </version>
@@ -21,7 +21,7 @@
 		  1）工作-现场管理，新增“退单查询”报表
 		    &lt;br/&gt;  a、后台-人员设置-菜单权限，赢娱移动掌柜新增对应菜单权限控制
           </vdesc>
-          <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/yy_juhe/1.0.5/yyzhanggui.apk</vurl>
+          <vurl>https://wenxuanling.github.io/sndownapp/distribution/app/android/yy_juhe/1.0.5/yyzhanggui.apk</vurl>
           <vtime>2019-08-27 15:11:02</vtime>
           <vtype>2</vtype>
         </version>
@@ -37,7 +37,7 @@
  &lt;br/&gt;   2）现场管理-“存取报表”汇总优化
    &lt;br/&gt;   a、增加按“明细”的方式报表统计，并增加“客人姓名”、“客人电话”
    &lt;br/&gt;   b、按经办人、包厢、物品、明细的方式统计的报表，去掉“商品类别”、“单位” 
-	  </vdesc> <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/yy_juhe/1.0.4/yy_juhe.plist</vurl>
+	  </vdesc> <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp/distribution/app/ios/yy_juhe/1.0.4/yy_juhe.plist</vurl>
           <vtime>2019-07-31 16:11:02</vtime>
           <vtype>1</vtype>
         </version>
@@ -57,7 +57,7 @@
     &lt;br/&gt;   3）现场管理-即时房态，点单和赠送界面，新增支持商品检索功能
       &lt;br/&gt;   4）新增支持“资源预约”功能，同IOS的资源预约功能    
           </vdesc>
-          <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/yy_juhe/1.0.4/yyzhanggui.apk</vurl>
+          <vurl>https://wenxuanling.github.io/sndownapp/distribution/app/android/yy_juhe/1.0.4/yyzhanggui.apk</vurl>
           <vtime>2019-07-31 16:11:02</vtime>
           <vtype>2</vtype>
         </version>
@@ -75,7 +75,7 @@
 	   &lt;br/&gt; 2）工作-现场查询，存取查询新增按“明细”查询
 	   &lt;br/&gt; a、只能查看自己以及部门权限设置所勾选部门下人员的存取明细
 	   &lt;br/&gt; 3）即时房态界面，如果无对应菜单权限，按钮不显示
-	  </vdesc> <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/yy_juhe/1.0.3/yy_juhe.plist</vurl>
+	  </vdesc> <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp/distribution/app/ios/yy_juhe/1.0.3/yy_juhe.plist</vurl>
           <vtime>2019-07-19 17:11:02</vtime>
           <vtype>1</vtype>
         </version>
@@ -97,7 +97,7 @@
 		   &lt;br/&gt;5）我-个人信息，新增“今日网络支付明细”，同IOS的“今日网络支付明细”，只显示当前营业日的网络支付明细
 		        
           </vdesc>
-          <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/yy_juhe/1.0.3/yyzhanggui.apk</vurl>
+          <vurl>https://wenxuanling.github.io/sndownapp/distribution/app/android/yy_juhe/1.0.3/yyzhanggui.apk</vurl>
           <vtime>2019-07-19 17:11:02</vtime>
           <vtype>2</vtype>
         </version>
@@ -111,7 +111,7 @@
 	    &lt;br/&gt; 1）工作->即时房态，新增包厢的背景、文字以及房态筛选按钮的文字颜色可实现 “默认”与“亮色”主题的切换；
 	      &lt;br/&gt; 2）工作->即时房态，包厢操作新增呼叫菜单
 	        &lt;br/&gt; a、后台系统-菜单权限，赢娱移动掌柜-现场查询-即时房态，新增“呼叫”权限
-	  </vdesc> <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/yy_juhe/1.0.2/yy_juhe.plist</vurl>
+	  </vdesc> <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp/distribution/app/ios/yy_juhe/1.0.2/yy_juhe.plist</vurl>
           <vtime>2019-07-10 19:11:02</vtime>
           <vtype>1</vtype>
         </version>
@@ -129,7 +129,7 @@
 		      &lt;br/&gt; 5）工作->即时房态，包厢操作新增呼叫菜单
 		        &lt;br/&gt; a、后台系统-菜单权限，赢娱移动掌柜-现场查询-即时房态，新增“呼叫”权限
           </vdesc>
-          <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/yy_juhe/1.0.2/yyzhanggui.apk</vurl>
+          <vurl>https://wenxuanling.github.io/sndownapp/distribution/app/android/yy_juhe/1.0.2/yyzhanggui.apk</vurl>
           <vtime>2019-07-10 19:11:02</vtime>
           <vtype>2</vtype>
         </version>
@@ -150,7 +150,7 @@
 		  &lt;br/&gt; 1）后台系统-菜单权限，赢娱移动掌柜-现场查询-即时房态，新增“历史账单”权限
 		  &lt;br/&gt; 2）所有房态下，都可以查看所选包厢当前营业日的历史账单
           </vdesc>
-          <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/yy_juhe/1.0.1/yyzhanggui.apk</vurl>
+          <vurl>https://wenxuanling.github.io/sndownapp/distribution/app/android/yy_juhe/1.0.1/yyzhanggui.apk</vurl>
           <vtime>2019-06-20 15:11:02</vtime>
           <vtype>2</vtype>
         </version>
@@ -171,7 +171,7 @@
 		  &lt;br/&gt;4、即时房态，支持查看历史账单
 		  &lt;br/&gt; 1）后台系统-菜单权限，赢娱移动掌柜-现场查询-即时房态，新增“历史账单”权限
 		  &lt;br/&gt; 2）所有房态下，都可以查看所选包厢当前营业日的历史账单
-	  </vdesc> <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/yy_juhe/1.0.1/yy_juhe.plist</vurl>
+	  </vdesc> <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp/distribution/app/ios/yy_juhe/1.0.1/yy_juhe.plist</vurl>
           <vtime>2019-06-20 15:11:02</vtime>
           <vtype>1</vtype>
         </version>
@@ -184,7 +184,7 @@
           <vdesc>
 		  Android赢娱掌柜
           </vdesc>
-          <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/yy_juhe/1.0.0/yyzhanggui.apk</vurl>
+          <vurl>https://wenxuanling.github.io/sndownapp/distribution/app/android/yy_juhe/1.0.0/yyzhanggui.apk</vurl>
           <vtime>2019-05-29 15:11:02</vtime>
           <vtype>2</vtype>
         </version>
@@ -197,7 +197,7 @@
           <vtitle>iOS赢娱掌柜1.0.0发布(搭配赢娱V1.0.20190319.exe及以上版本使用)</vtitle>
           <vdesc>   
 		 iOS赢娱掌柜发布
-	  </vdesc> <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/yy_juhe/1.0.0/yy_juhe.plist</vurl>
+	  </vdesc> <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp/distribution/app/ios/yy_juhe/1.0.0/yy_juhe.plist</vurl>
           <vtime>2019-03-19 15:11:02</vtime>
           <vtype>1</vtype>
         </version>
