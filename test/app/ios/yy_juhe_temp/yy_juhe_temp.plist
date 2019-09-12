@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://yj.evideocloud.com.cn/app/test/app/ios/yy_juhe_temp/SN_YY_JuHe.ipa</string>
+					<string>https://wenxuanling.github.io/sndownapp/test/app/ios/yy_juhe_temp/SN_YY_JuHe.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -19,7 +19,7 @@
 					<key>needs-shine</key>
 					<false/>
 					<key>url</key>
-					<string>https://yj.evideocloud.com.cn/app/common/yjzglogo.png</string>
+					<string>https://wenxuanling.github.io/sndownapp/common/yjzglogo.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -27,7 +27,7 @@
 					<key>needs-shine</key>
 					<false/>
 					<key>url</key>
-					<string>https://yj.evideocloud.com.cn/app/common/yjzglogo.png</string>
+					<string>https://wenxuanling.github.io/sndownapp/common/yjzglogo.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
