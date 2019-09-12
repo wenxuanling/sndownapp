@@ -10,7 +10,7 @@
    &lt;br/&gt;2)设置界面新增“iPad大图点单”设置，该设置仅对iPad生效
    &lt;br/&gt;3)修复 寄存时授权寄存，商品类别无法点击过滤的问题
        </vdesc>
-                 <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp//distribution/app/ios/yj_order/1.9.1/yj_order.plist</vurl>
+                 <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp/distribution/app/ios/yj_order/1.9.1/yj_order.plist</vurl>
                  <vtime>2019-08-15 17:29:02</vtime>
                  <vtype>1</vtype>
          </version>
