@@ -10,7 +10,7 @@
    &lt;br/&gt;2)设置界面新增“iPad大图点单”设置，该设置仅对iPad生效
    &lt;br/&gt;3)修复 寄存时授权寄存，商品类别无法点击过滤的问题
        </vdesc>
-                 <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/yj_order/1.9.1/yj_order.plist</vurl>
+                 <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp//distribution/app/ios/yj_order/1.9.1/yj_order.plist</vurl>
                  <vtime>2019-08-15 17:29:02</vtime>
                  <vtype>1</vtype>
          </version>
@@ -22,7 +22,7 @@
                 <vtitle>Android娱加点单1.9.1发布(搭配娱加-V3.1.20190815及以上版本使用)</vtitle>
                 <vdesc>    1)卡台操作菜单新增“商品结账”，支持对当前开台单下后结落单的商品进行结账
       </vdesc>
-                <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/yj_order/1.9.1/barKTVOrder.apk</vurl>
+                <vurl>https://wenxuanling.github.io/sndownapp//distribution/app/android/yj_order/1.9.1/barKTVOrder.apk</vurl>
                 <vtime>2019-08-15 17:29:02</vtime>
                 <vtype>2</vtype>
         </version>
@@ -33,7 +33,7 @@
                  <vtitle>iOS娱加点单1.9.0发布(搭配娱加-V3.1.20190709及以上版本使用)</vtitle>
                  <vdesc>  1)资源支持扫资源二维码勾选资源
        </vdesc>
-                 <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/yj_order/1.9.0/yj_order.plist</vurl>
+                 <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp//distribution/app/ios/yj_order/1.9.0/yj_order.plist</vurl>
                  <vtime>2019-07-09 18:29:02</vtime>
                  <vtype>1</vtype>
          </version>
@@ -45,7 +45,7 @@
                 <vtitle>Android娱加点单1.9.0发布(搭配娱加-V3.1.20190709及以上版本使用)</vtitle>
                 <vdesc>    1)资源支持扫资源二维码勾选资源
       </vdesc>
-                <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/yj_order/1.9.0/barKTVOrder.apk</vurl>
+                <vurl>https://wenxuanling.github.io/sndownapp//distribution/app/android/yj_order/1.9.0/barKTVOrder.apk</vurl>
                 <vtime>2019-07-09 18:29:02</vtime>
                 <vtype>2</vtype>
         </version>
@@ -57,7 +57,7 @@
                 <vtitle>Android娱加点单1.8.9发布(搭配娱加-V3.0.20190530及以上版本使用)</vtitle>
                 <vdesc>    1)修复线下版本为旧版本时(不支持口令支取)，通过口令支取入口输手机号取酒可以免验证码支取的问题
       </vdesc>
-                <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/yj_order/1.8.9/barKTVOrder.apk</vurl>
+                <vurl>https://wenxuanling.github.io/sndownapp//distribution/app/android/yj_order/1.8.9/barKTVOrder.apk</vurl>
                 <vtime>2019-05-30 14:29:02</vtime>
                 <vtype>2</vtype>
         </version>
@@ -69,7 +69,7 @@
                  <vtitle>iOS娱加点单1.8.9发布(搭配娱加-V3.0.20190530及以上版本使用)</vtitle>
                  <vdesc>  1)修复线下版本为旧版本时(不支持口令支取)，通过口令支取入口输手机号取酒可以免验证码支取的问题
        </vdesc>
-                 <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/yj_order/1.8.9/yj_order.plist</vurl>
+                 <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp//distribution/app/ios/yj_order/1.8.9/yj_order.plist</vurl>
                  <vtime>2019-05-30 14:29:02</vtime>
                  <vtype>1</vtype>
          </version>
@@ -85,7 +85,7 @@
                 &lt;br/&gt;2)支取新增免验证码支取授权
                 &lt;br/&gt;3)寄存首次点“授权寄存”时，直接判断当前登录人员是否具有权限
             </vdesc>
-            <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/yj_order/1.8.8/barKTVOrder.apk</vurl>
+            <vurl>https://wenxuanling.github.io/sndownapp//distribution/app/android/yj_order/1.8.8/barKTVOrder.apk</vurl>
             <vtime>2019-05-24 14:29:02</vtime>
             <vtype>2</vtype>
         </version>
@@ -100,7 +100,7 @@
 		      &lt;br/&gt;2)优化支取商品存在小数时，加减操作只会变动整数部分
 		      &lt;br/&gt;3)个人页面新增“退出登录”按钮
             </vdesc>
-            <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/yj_order/1.8.8/yj_order.plist</vurl>
+            <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp//distribution/app/ios/yj_order/1.8.8/yj_order.plist</vurl>
             <vtime>2019-05-24 14:29:02</vtime>
             <vtype>1</vtype>
         </version>
@@ -116,7 +116,7 @@
              &lt;br/&gt;2)支取新增免验证码支取授权
              &lt;br/&gt;3)寄存首次点“授权寄存”时，直接判断当前登录人员是否具有权限
          </vdesc>
-         <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/yj_order/1.8.7/yj_order.plist</vurl>
+         <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp//distribution/app/ios/yj_order/1.8.7/yj_order.plist</vurl>
          <vtime>2019-04-17 14:29:02</vtime>
          <vtype>1</vtype>
      </version>
@@ -131,7 +131,7 @@
              &lt;br/&gt;2)支取新增免验证码支取授权
              &lt;br/&gt;3)寄存首次点“授权寄存”时，直接判断当前登录人员是否具有权限
          </vdesc>
-         <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/yj_order/1.8.7/barKTVOrder.apk</vurl>
+         <vurl>https://wenxuanling.github.io/sndownapp//distribution/app/android/yj_order/1.8.7/barKTVOrder.apk</vurl>
          <vtime>2019-04-17 14:29:02</vtime>
          <vtype>2</vtype>
      </version> -->
@@ -144,7 +144,7 @@
                 <vdesc>    1)优化寄存确认，寄存后生成临时单，寄存确认后生成寄存单并产生库存变动
     &lt;br/&gt;2)限制小数寄存商品支取数量（例如：寄存数为2.6，则可支取数为2.6，1.6，0.6，2，1）
       </vdesc>
-                <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/yj_order/1.8.6/barKTVOrder.apk</vurl>
+                <vurl>https://wenxuanling.github.io/sndownapp//distribution/app/android/yj_order/1.8.6/barKTVOrder.apk</vurl>
                 <vtime>2019-01-24 14:29:02</vtime>
                 <vtype>2</vtype>
         </version>
@@ -157,7 +157,7 @@
                  <vdesc> 1)优化寄存确认，寄存后生成临时单，寄存确认后生成寄存单并产生库存变动
     &lt;br/&gt;2)限制小数寄存商品支取数量（例如：寄存数为2.6，则可支取数为2.6，1.6，0.6，2，1）
        </vdesc>
-                 <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/yj_order/1.8.6/yj_order.plist</vurl>
+                 <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp//distribution/app/ios/yj_order/1.8.6/yj_order.plist</vurl>
                  <vtime>2019-01-24 14:29:02</vtime>
                  <vtype>1</vtype>
          </version>
@@ -170,7 +170,7 @@
                  <vtitle>iOS娱加点单1.8.4发布(搭配娱加-V3.0.20181228及以上版本使用)</vtitle>
                  <vdesc>1、后台-人员设置-业务权限，移动点单-业务操作新增“现结”权限，控制人员是否可以点单现结 &lt;br/&gt; 2、点单支持特殊口味关联商品
        </vdesc>
-                 <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/yj_order/1.8.4/yj_order.plist</vurl>
+                 <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp//distribution/app/ios/yj_order/1.8.4/yj_order.plist</vurl>
                  <vtime>2018-12-29 09:29:02</vtime>
                  <vtype>1</vtype>
          </version>
@@ -182,7 +182,7 @@
                 <vtitle>Android娱加点单1.8.5发布(搭配娱加-V3.0.20181228及以上版本使用)</vtitle>
                 <vdesc>    1、后台-人员设置-业务权限，移动点单-业务操作新增“现结”权限，控制人员是否可以点单现结 &lt;br/&gt; 2、点单支持特殊口味关联商品
       </vdesc>
-                <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/yj_order/1.8.5/barKTVOrder.apk</vurl>
+                <vurl>https://wenxuanling.github.io/sndownapp//distribution/app/android/yj_order/1.8.5/barKTVOrder.apk</vurl>
                 <vtime>2018-12-29 09:29:02</vtime>
                 <vtype>2</vtype>
         </version>
@@ -194,7 +194,7 @@
                 <vtitle>Android娱加点单1.8.4发布(搭配娱加酒吧-V3.0.20180928及以上版本使用)</vtitle>
                 <vdesc>    1)支持盛付通POS机银联支付 &lt;br/&gt;【注意】：安卓点单APP现结使用银联支付时，进入盛付通应用后通过最近使用程序进入点单APP，会出现盛付通银联支付成功后不会返回到点单APP，导致无法获取银联支付单信息，无法结账
       </vdesc>
-                <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/yj_order/1.8.4/barKTVOrder.apk</vurl>
+                <vurl>https://wenxuanling.github.io/sndownapp//distribution/app/android/yj_order/1.8.4/barKTVOrder.apk</vurl>
                 <vtime>2018-09-29 14:29:02</vtime>
                 <vtype>2</vtype>
         </version>
@@ -206,7 +206,7 @@
                  <vtitle>iOS娱加点单1.8.3发布(搭配娱加酒吧-V3.0.20180905及以上版本使用)</vtitle>
                  <vdesc>1)安卓点单和IOS点单APP现结网络支付新增支持“新老管家支付”通道
        </vdesc>
-                 <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/yj_order/1.8.3/yj_order.plist</vurl>
+                 <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp//distribution/app/ios/yj_order/1.8.3/yj_order.plist</vurl>
                  <vtime>2018-09-05 09:29:02</vtime>
                  <vtype>1</vtype>
          </version>
@@ -218,7 +218,7 @@
                 <vtitle>Android娱加点单1.8.3发布(搭配娱加酒吧-V3.0.20180905及以上版本使用)</vtitle>
                 <vdesc>   1)安卓点单和IOS点单APP现结网络支付新增支持“新老管家支付”通道
       </vdesc>
-                <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/yj_order/1.8.3/barKTVOrder.apk</vurl>
+                <vurl>https://wenxuanling.github.io/sndownapp//distribution/app/android/yj_order/1.8.3/barKTVOrder.apk</vurl>
                 <vtime>2018-09-05 09:29:02</vtime>
                 <vtype>2</vtype>
         </version>
@@ -230,7 +230,7 @@
                  <vtitle>iOS娱加点单1.8.2发布(搭配娱加酒吧-V3.0.20180704及以上版本使用)</vtitle>
                  <vdesc>1）增加支持小数点单
        </vdesc>
-                 <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/yj_order/1.8.2/yj_order.plist</vurl>
+                 <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp//distribution/app/ios/yj_order/1.8.2/yj_order.plist</vurl>
                  <vtime>2018-07-04 17:29:02</vtime>
                  <vtype>1</vtype>
          </version>
@@ -243,7 +243,7 @@
                 <vtitle>Android娱加点单1.8.2发布(搭配娱加酒吧-V3.0.20180704及以上版本使用)</vtitle>
                 <vdesc>   1）增加支持小数点单
       </vdesc>
-                <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/yj_order/1.8.2/barKTVOrder.apk</vurl>
+                <vurl>https://wenxuanling.github.io/sndownapp//distribution/app/android/yj_order/1.8.2/barKTVOrder.apk</vurl>
                 <vtime>2018-07-04 17:29:02</vtime>
                 <vtype>2</vtype>
         </version>
@@ -256,7 +256,7 @@
                 <vtitle>Android娱加点单1.8.1发布(搭配娱加酒吧-V2.0.20180412及以上版本使用)</vtitle>
                 <vdesc>   1）优化 移动点单APP在寄存支取短信验证码时校验手机号是否为11位
       </vdesc>
-                <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/yj_order/1.8.1/barKTVOrder.apk</vurl>
+                <vurl>https://wenxuanling.github.io/sndownapp//distribution/app/android/yj_order/1.8.1/barKTVOrder.apk</vurl>
                 <vtime>2018-04-25 09:29:02</vtime>
                 <vtype>2</vtype>
         </version>
@@ -268,7 +268,7 @@
                  <vtitle>iOS娱加点单1.8.1发布(搭配娱加酒吧-V2.0.20180412及以上版本使用)</vtitle>
                  <vdesc>1）优化 移动点单APP在寄存支取短信验证码时校验手机号是否为11位
        </vdesc>
-                 <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/yj_order/1.8.1/yj_order.plist</vurl>
+                 <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp//distribution/app/ios/yj_order/1.8.1/yj_order.plist</vurl>
                  <vtime>2018-04-25 09:29:02</vtime>
                  <vtype>1</vtype>
          </version>
@@ -282,7 +282,7 @@
                  <vdesc>1）点单和资源现结新增支持会员支付
    &lt;br/&gt;2）优化 移动点单APP在启用支取短信验证码时校验手机号是否为11位
        </vdesc>
-                 <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/yj_order/1.8.0/yj_order.plist</vurl>
+                 <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp//distribution/app/ios/yj_order/1.8.0/yj_order.plist</vurl>
                  <vtime>2018-04-12 19:29:02</vtime>
                  <vtype>1</vtype>
          </version>
@@ -295,7 +295,7 @@
                 <vdesc>   1）点单和资源现结新增支持会员支付
    &lt;br/&gt;2）优化 移动点单APP在启用支取短信验证码时校验手机号是否为11位
       </vdesc>
-                <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/yj_order/1.8.0/barKTVOrder.apk</vurl>
+                <vurl>https://wenxuanling.github.io/sndownapp//distribution/app/android/yj_order/1.8.0/barKTVOrder.apk</vurl>
                 <vtime>2018-04-12 19:29:02</vtime>
                 <vtype>2</vtype>
         </version>
@@ -307,7 +307,7 @@
                 <vtitle>Android娱加点单1.7.9发布(搭配娱加YJ-V2.0.20180123.exe使用)</vtitle>
                 <vdesc>1、修复安卓pad大图显示太小问题
       </vdesc>
-                <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/yj_order/1.7.9/barKTVOrder.apk</vurl>
+                <vurl>https://wenxuanling.github.io/sndownapp//distribution/app/android/yj_order/1.7.9/barKTVOrder.apk</vurl>
                 <vtime>2018-03-29 10:29:02</vtime>
                 <vtype>2</vtype>
         </version>
@@ -319,7 +319,7 @@
                 <vtitle>Android娱加点单1.7.8发布(搭配娱加YJ-V2.0.20180123.exe使用)</vtitle>
                 <vdesc>1、增加清台功能
       </vdesc>
-                <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/yj_order/1.7.8/barKTVOrder.apk</vurl>
+                <vurl>https://wenxuanling.github.io/sndownapp//distribution/app/android/yj_order/1.7.8/barKTVOrder.apk</vurl>
                 <vtime>2018-01-23 10:29:02</vtime>
                 <vtype>2</vtype>
         </version>
@@ -330,7 +330,7 @@
                  <vtitle>iOS娱加点单1.7.8发布(搭配娱加YJ-V2.0.20180123.exe使用)</vtitle>
                  <vdesc>1、增加清台功能
        </vdesc>
-                 <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/yj_order/1.7.8/yj_order.plist</vurl>
+                 <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp//distribution/app/ios/yj_order/1.7.8/yj_order.plist</vurl>
                  <vtime>2018-01-23 10:29:02</vtime>
                  <vtype>1</vtype>
          </version>
@@ -342,7 +342,7 @@
                  <vtitle>iOS娱加点单1.7.7发布(搭配娱加YJ-V1.9.20171124使用)</vtitle>
                  <vdesc>1、修复了预订开台模式，预订卡台不能开台的bug
        </vdesc>
-                 <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/yj_order/1.7.7/yj_order.plist</vurl>
+                 <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp//distribution/app/ios/yj_order/1.7.7/yj_order.plist</vurl>
                  <vtime>2017-12-04 14:29:02</vtime>
                  <vtype>1</vtype>
          </version>
@@ -354,7 +354,7 @@
                 <vtitle>Android娱加点单1.7.5发布(搭配娱加YJ-V1.9.20171124使用)</vtitle>
                 <vdesc>1、修复了寄存物品时，小数点不超过1的限制
       </vdesc>
-                <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/yj_order/1.7.6/barKTVOrder.apk</vurl>
+                <vurl>https://wenxuanling.github.io/sndownapp//distribution/app/android/yj_order/1.7.6/barKTVOrder.apk</vurl>
                 <vtime>2017-11-24 14:29:02</vtime>
                 <vtype>2</vtype>
         </version>
@@ -365,7 +365,7 @@
                 <vtitle>iOS娱加点单1.7.6发布(搭配娱加YJ-V1.9.20171124使用)</vtitle>
                 <vdesc>1、修复了寄存物品时，小数点不超过1的限制
       </vdesc>
-                <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/yj_order/1.7.6/yj_order.plist</vurl>
+                <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp//distribution/app/ios/yj_order/1.7.6/yj_order.plist</vurl>
                 <vtime>2017-11-24 14:29:02</vtime>
                 <vtype>1</vtype>
         </version>
@@ -378,7 +378,7 @@
                 <vtitle>iOS娱加点单1.7.5发布(搭配娱加YJ-V1.9.20171020使用)</vtitle>
                 <vdesc>1、修复了寄存物品时，出现的寄存数量为空的bug
       </vdesc>
-                <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/yj_order/1.7.5/yj_order.plist</vurl>
+                <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp//distribution/app/ios/yj_order/1.7.5/yj_order.plist</vurl>
                 <vtime>2017-10-28 14:29:02</vtime>
                 <vtype>1</vtype>
         </version>
@@ -392,7 +392,7 @@
       &lt;br/&gt;2、当启用手机支取验证功能。支取时发送验证码，验证通过后支取。
       &lt;br/&gt;3、新增参数，楼道、APP开台模式。当启用预订开台，只有预订的卡台能开台。
       </vdesc>
-                <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/yj_order/1.7.4/barKTVOrder.apk</vurl>
+                <vurl>https://wenxuanling.github.io/sndownapp//distribution/app/android/yj_order/1.7.4/barKTVOrder.apk</vurl>
                 <vtime>2017-10-20 14:29:02</vtime>
                 <vtype>2</vtype>
         </version>
@@ -406,7 +406,7 @@
 &lt;br/&gt;2、当启用手机支取验证功能。支取时发送验证码，验证通过后支取。
 &lt;br/&gt;3、新增参数，楼道、APP开台模式。当启用预订开台，只有预订的卡台能开台。
 </vdesc>
-          <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/yj_order/1.7.4/yj_order.plist</vurl>
+          <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp//distribution/app/ios/yj_order/1.7.4/yj_order.plist</vurl>
           <vtime>2017-10-20 14:29:02</vtime>
           <vtype>1</vtype>
   </version>
@@ -418,7 +418,7 @@
     <vtitle>Android娱加点单1.7发布(搭配娱加YJ-V1.9.20170919使用)</vtitle>
     <vdesc>1、支持叫起，恢复传送功能，落单添加加急选项功能
 &lt;br/&gt;2、支持资源落单，资源落单现结</vdesc>
-    <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/yj_order/1.7.0/barKTVOrder.apk</vurl>
+    <vurl>https://wenxuanling.github.io/sndownapp//distribution/app/android/yj_order/1.7.0/barKTVOrder.apk</vurl>
     <vtime>2017-09-20 14:29:02</vtime>
     <vtype>2</vtype>
   </version>
@@ -430,7 +430,7 @@
     <vdesc>1、新增卡台扫码点单
 &lt;br/&gt;2、UI风格改造（改成酒吧风格）
 &lt;br/&gt;3、在个人信息下新增（待办和未读）功能</vdesc>
-    <vurl>https://yj.evideocloud.com.cn/app/distribution/app/android/yj_order/1.0.0/barKTVOrder.apk</vurl>
+    <vurl>https://wenxuanling.github.io/sndownapp//distribution/app/android/yj_order/1.0.0/barKTVOrder.apk</vurl>
     <vtime>2017-04-20 14:29:02</vtime>
     <vtype>2</vtype>
   </version>
@@ -442,7 +442,7 @@
     <vdesc>1、支持叫起，恢复传送功能，落单添加加急选项功能
 &lt;br/&gt;2、支持资源落单，资源落单现结
     </vdesc>
-    <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/yj_order/1.7.0/yj_order.plist</vurl>
+    <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp//distribution/app/ios/yj_order/1.7.0/yj_order.plist</vurl>
     <vtime>2017-09-20 14:29:02</vtime>
     <vtype>1</vtype>
   </version>
@@ -454,7 +454,7 @@
     <vdesc>1、新增卡台扫码点单
 &lt;br/&gt;2、UI风格改造（改成酒吧风格）
 &lt;br/&gt;3、在个人信息下新增（待办和未读）功能</vdesc>
-    <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/app/ios/yj_order/1.0.0/yj_order.plist</vurl>
+    <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp//distribution/app/ios/yj_order/1.0.0/yj_order.plist</vurl>
     <vtime>2017-04-20 14:29:02</vtime>
     <vtype>1</vtype>
   </version>
