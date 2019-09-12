@@ -8,7 +8,7 @@
         <vdesc>
 		1.修复ios11 闪退问题
     </vdesc>
-        <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/otherapp/ios/yt_order/2.2.1/yt_order.plist</vurl>
+        <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp/distribution/otherapp/ios/yt_order/2.2.1/yt_order.plist</vurl>
         <vtime>2017-12-21 14:29:02</vtime>
         <vtype>1</vtype>
       </version>
@@ -32,7 +32,7 @@
 &lt;br/&gt;3、	支持本地菜单与网络菜单切换
 &lt;br/&gt;4、	支持离线下载
 </vdesc>
-    <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/otherapp/ios/yt_order/2.2.0/yt_order.plist</vurl>
+    <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp/distribution/otherapp/ios/yt_order/2.2.0/yt_order.plist</vurl>
     <vtime>2017-07-20 14:29:02</vtime>
     <vtype>1</vtype>
   </version>
@@ -55,7 +55,7 @@
 &lt;br/&gt;3、	支持本地菜单与网络菜单切换
 &lt;br/&gt;4、	支持离线下载
 </vdesc>
-    <vurl>https://yj.evideocloud.com.cn/app/distribution/otherapp/android/yt_order/KTVorder.apk</vurl>
+    <vurl>https://wenxuanling.github.io/sndownapp/distribution/otherapp/android/yt_order/KTVorder.apk</vurl>
     <vtime>2017-07-20 14:29:02</vtime>
     <vtype>2</vtype>
   </version>

@@ -21,7 +21,7 @@
 &lt;br/&gt;	房费分析
 &lt;br/&gt;	我的消息
 </vdesc>
-    <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/otherapp/ios/jt_zhanggui/jt_zhanggui.plist</vurl>
+    <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp/distribution/otherapp/ios/jt_zhanggui/jt_zhanggui.plist</vurl>
     <vtime>2017-03-20 14:29:02</vtime>
     <vtype>1</vtype>
   </version>
@@ -47,7 +47,7 @@
 &lt;br/&gt;	房费分析
 &lt;br/&gt;	我的消息
 </vdesc>
-    <vurl>https://yj.evideocloud.com.cn/app/distribution/otherapp/android/jt_zhanggui/DsKTVDecisionMaking.apk</vurl>
+    <vurl>https://wenxuanling.github.io/sndownapp/distribution/otherapp/android/jt_zhanggui/DsKTVDecisionMaking.apk</vurl>
     <vtime>2017-03-20 14:29:02</vtime>
     <vtype>2</vtype>
   </version>

@@ -17,7 +17,7 @@
 &lt;br/&gt;2、	实现预订客与散客的快速带客
 &lt;br/&gt;3、	一键开房
 </vdesc>
-    <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/otherapp/ios/jt_yingbin/jt_yingbin.plist</vurl>
+    <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp/distribution/otherapp/ios/jt_yingbin/jt_yingbin.plist</vurl>
     <vtime>2017-03-20 14:29:02</vtime>
     <vtype>1</vtype>
   </version>

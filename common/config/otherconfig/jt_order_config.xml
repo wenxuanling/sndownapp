@@ -7,7 +7,7 @@
              <vtitle>iOS 360°量贩KTV点单2.2.8版发布（精通）</vtitle>
              <vdesc>    &lt;br/&gt;1、	ipad点单，锁定状态的包厢退单提示“包厢锁定状态,不允许退单” 增加提示  
              </vdesc>
-             <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/otherapp/ios/jt_order/2.2.8/jt_order.plist</vurl>
+             <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp/distribution/otherapp/ios/jt_order/2.2.8/jt_order.plist</vurl>
              <vtime>2018-02-06 11:29:02</vtime>
              <vtype>1</vtype>
         </version>
@@ -20,7 +20,7 @@
         <vdesc>
     &lt;br/&gt;1、修复设备不能重复注册的问题
     </vdesc>
-        <vurl>https://yj.evideocloud.com.cn/app/distribution/otherapp/android/jt_order/1.3.2/DsKtvOrder.apk</vurl>
+        <vurl>https://wenxuanling.github.io/sndownapp/distribution/otherapp/android/jt_order/1.3.2/DsKtvOrder.apk</vurl>
         <vtime>2018-01-02 14:29:02</vtime>
         <vtype>2</vtype>
       </version>
@@ -34,7 +34,7 @@
     &lt;br/&gt;1、	在可选套餐点单时，例送点单界面中支持手工输入物品数量
     &lt;br/&gt;2、	支持输入域名，取消长度限制
     </vdesc>
-        <vurl>https://yj.evideocloud.com.cn/app/distribution/otherapp/android/jt_order/1.3.1/DsKtvOrder.apk</vurl>
+        <vurl>https://wenxuanling.github.io/sndownapp/distribution/otherapp/android/jt_order/1.3.1/DsKtvOrder.apk</vurl>
         <vtime>2017-12-14 19:29:02</vtime>
         <vtype>2</vtype>
       </version>
@@ -46,7 +46,7 @@
              <vdesc>    &lt;br/&gt;1、	在可选套餐点单时，例送点单界面中支持手工输入物品数量
     &lt;br/&gt;2、	支持输入域名，取消长度限制
              </vdesc>
-             <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/otherapp/ios/jt_order/2.2.7/jt_order.plist</vurl>
+             <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp/distribution/otherapp/ios/jt_order/2.2.7/jt_order.plist</vurl>
              <vtime>2017-12-14 19:29:02</vtime>
              <vtype>1</vtype>
         </version>
@@ -57,7 +57,7 @@
              <vtitle>iOS 360°量贩KTV点单2.2.6版发布（精通）</vtitle>
              <vdesc>1.修复部分场所Ipad闪退问题，并优化
          </vdesc>
-             <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/otherapp/ios/jt_order/2.2.6/jt_order.plist</vurl>
+             <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp/distribution/otherapp/ios/jt_order/2.2.6/jt_order.plist</vurl>
              <vtime>2017-11-01 16:29:02</vtime>
              <vtype>1</vtype>
         </version>
@@ -69,7 +69,7 @@
              <vtitle>iOS 360°量贩KTV点单2.2.5版发布（精通）</vtitle>
              <vdesc>1.修复Ipad闪退问题，并优化
          </vdesc>
-             <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/otherapp/ios/jt_order/2.2.5/jt_order.plist</vurl>
+             <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp/distribution/otherapp/ios/jt_order/2.2.5/jt_order.plist</vurl>
              <vtime>2017-10-18 09:29:02</vtime>
              <vtype>1</vtype>
         </version>
@@ -81,7 +81,7 @@
           <vtitle>iOS 360°量贩KTV点单2.2.4版发布（精通）</vtitle>
           <vdesc>1.修复闪退问题，并优化
       </vdesc>
-          <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/otherapp/ios/jt_order/2.2.4/jt_order.plist</vurl>
+          <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp/distribution/otherapp/ios/jt_order/2.2.4/jt_order.plist</vurl>
           <vtime>2017-10-17 14:29:02</vtime>
           <vtype>1</vtype>
      </version>
@@ -106,7 +106,7 @@
 &lt;br/&gt;3、	支持本地菜单与网络菜单切换
 &lt;br/&gt;4、	支持离线下载
 </vdesc>
-    <vurl>itms-services://?action=download-manifest&amp;url=https://yj.evideocloud.com.cn/app/distribution/otherapp/ios/jt_order/2.2.3/jt_order.plist</vurl>
+    <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp/distribution/otherapp/ios/jt_order/2.2.3/jt_order.plist</vurl>
     <vtime>2017-03-20 14:29:02</vtime>
     <vtype>1</vtype>
   </version>
@@ -129,7 +129,7 @@
 &lt;br/&gt;3、	支持本地菜单与网络菜单切换
 &lt;br/&gt;4、	支持离线下载
 </vdesc>
-    <vurl>https://yj.evideocloud.com.cn/app/distribution/otherapp/android/jt_order/1.0.0/DsKtvOrder.apk</vurl>
+    <vurl>https://wenxuanling.github.io/sndownapp/distribution/otherapp/android/jt_order/1.0.0/DsKtvOrder.apk</vurl>
     <vtime>2017-03-20 14:29:02</vtime>
     <vtype>2</vtype>
   </version>
