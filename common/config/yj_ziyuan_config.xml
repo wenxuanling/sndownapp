@@ -1,6 +1,33 @@
 <?xml version="1.0"?>
 <Response>
 	
+	
+        <version>
+          <tableid>4</tableid>
+          <vname>1.0.1</vname>
+          <vtitle>Android娱加资源V1.0.1发布(搭配娱加-V3.1.20190917及及以上版本使用)</vtitle>
+          <vdesc>  
+		  1)修复资源人登录要求注册设备的问题，资源人使用资源APP无需注册设备
+		  &lt;br/&gt;2)修复安卓资源APP资源人登录不会自动获取消息的问题
+		</vdesc> <vurl>https://wenxuanling.github.io/sndownapp/distribution/app/android/yj_ziyuan/1.0.1/yj_ziyuan.apk</vurl>
+          <vtime>2019-09-17 18:51:02</vtime>
+          <vtype>2</vtype>
+        </version>
+	
+        <version>
+          <tableid>3</tableid>
+          <vname>1.0.1</vname>
+          <vtitle>iOS娱加资源V1.0.1发布(搭配娱加-V3.1.20190917及及以上版本使用)</vtitle>
+          <vdesc>  
+		  1)修复资源人登录要求注册设备的问题，资源人使用资源APP无需注册设备
+		   &lt;br/&gt;2)修复IOS资源APP注册设备信息与点单APP和掌柜APP不通用的问题
+		     &lt;br/&gt;【注】：需卸载原资源APP，重新下载安装新资源APP
+		</vdesc> <vurl>itms-services://?action=download-manifest&amp;url=https://wenxuanling.github.io/sndownapp/distribution/app/ios/yj_ziyuan/1.0.1/yj_ziyuan.plist</vurl>
+          <vtime>2019-09-17 18:51:02</vtime>
+          <vtype>1</vtype>
+        </version>
+	
+	
         <version>
           <tableid>2</tableid>
           <vname>1.0.0</vname>
