@@ -74,6 +74,11 @@
                  topbtn.href = "itms-services://?action=download-manifest&url=https://wenxuanling.github.io/sndownapp/distribution/app/ios/yj_ziyuan/yj_ziyuan.plist";
                  logoimg.src= "../../common/yjzylogo.png";
              }
+             if(stype==8){
+                 topbtn.href = "itms-services://?action=download-manifest&url=https://wenxuanling.github.io/sndownapp/distribution/app/ios/yy_juhe/yy_juhe.plist";
+                 logoimg.src= "../../common/yylogo.png";
+             }
+
             topbtn.className += ' btn-primary ';
          }
          if(vtype_que == 2){
@@ -96,6 +101,10 @@
              if(stype==7){
                   topbtn.href = "https://wenxuanling.github.io/sndownapp/distribution/app/android/yj_ziyuan/yj_ziyuan.apk";
                   logoimg.src= "../../common/yjzylogo.png";
+             }
+             if(stype==8){
+                  topbtn.href = "https://wenxuanling.github.io/sndownapp/distribution/app/android/yy_juhe/yyzhanggui.apk";
+                  logoimg.src= "../../common/yylogo.png";
              }
             topbtn.className += ' btn-info btn-outline'; // 注意前面加空格，防止两个属性挨一起
          }
@@ -136,6 +145,9 @@
                  }
                  if(stype==7){
                      filestr +="yj_ziyuan_config.xml";
+                 }
+                 if(stype==8){
+                     filestr +="yy_app_config.xml";
                  }
                  var xmldoc=LoadXMLFile(filestr);
 
